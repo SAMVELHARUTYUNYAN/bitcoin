@@ -1,0 +1,51 @@
+.region_page {
+    .page_hero {
+        padding: 40px 0px;
+        background-image: none;
+        background-color: #303132;
+    }
+
+    .form_wrap {
+        @media(min-width: 768px) {
+            background-color: #595a5b;
+        }
+    }
+
+    .page_section {
+    	&.browse_categories {
+    		padding-top: 35px;
+    	}
+    }
+    .exp_breadcrumb {
+    	background-color: #f9f9f9;
+    }
+
+    .sub_locations {
+    	margin-bottom: 50px;
+    	ul {
+    		list-style-type: none;
+    		padding: 0;
+    		li {
+    			display: inline-block;
+    			vertical-align: middle;
+    			margin-right: 10px;
+    			margin-bottom: 10px;
+    			a {
+    				border-radius: 20px;
+    				color: #2c1ece;
+    				padding: 9px 18px;
+    				font-size: 17px;
+    				border: none;
+    				background-color: #f1f1f1;
+                    @media(max-width: 600px) {
+                        font-size: 14px;
+                        padding: 6px 15px;
+                    }
+    				&:hover {
+    					background-color: darken(#f1f1f1, 3%);
+    				}
+    			}
+    		}
+    	}
+    }
+}
