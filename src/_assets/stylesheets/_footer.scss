@@ -12,6 +12,11 @@
   }
   li {
     list-style: none;
+    line-height: 1;
+    align-items: center;
+    > i {
+      margin-right: 10px;
+    }
   }
   a {
     display: block;
@@ -66,17 +71,14 @@
 }
 
 .main-footer--links {
+  color:#737780;
   li + li {
-    margin-top: 10px;
+    margin-top: 18px;
   }
   a{
     font-size: 14px;
     @media (min-width: 992px) {
       font-size: 16px;
-    }
-    i{
-      position: relative;
-      margin-right: 10px;
     }
     &:hover{
       text-decoration: underline;
@@ -84,7 +86,10 @@
     &.media-info{
       color: #2aa3d4;
       text-decoration: underline;
-      margin-left: 24px;
+      margin-left: 26px;
+      @media (min-width: 992px) {
+        font-size: 14px;
+      }
     }
   }
 
