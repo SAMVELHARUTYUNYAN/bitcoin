@@ -1,10 +1,20 @@
+@import 'header';
+@import 'helpers';
 // colors
 @import 'colors';
 // fonts
 @import 'fonts';
+@import 'typo';
 // icons
 @import 'icons';
+// flex-grid
+
 //general
 @import 'general';
+@import 'layout';
+@import 'flex-grid';
+
+@import 'footer';
+
 
 

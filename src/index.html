@@ -2,1299 +2,365 @@
 <html>
 
 <head>
-    <meta chareset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
-    <title>Expatriates</title>
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:css({.tmp/serve,src}) styles/app.css -->
-    <!-- inject:css -->
-    <!-- css files will be automatically insert here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+  <title>Bitcoin</title>
+  
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  
+  <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+  <!-- inject:css -->
+  <!-- css files will be automatically insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
 
 </head>
 
 <body>
-    <!-- OVERLAY -->
-    <div class="dark_overlay"></div>
-    <!-- MAIN HEADER -->
-    <header class="main-header clearfix">
-        <!-- Overlay -->
-        <div class="dark-overlay">
+<!--HEADER-->
+<header class="btc-header">
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-auto">
+        <div class="btc-logo">
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 408.2 134.78">
+            <defs>
+              <style>.cls-1 {
+                fill: url(#radial-gradient);
+              }
+              
+              .cls-2 {
+                fill: #fff;
+              }</style>
+              <radialGradient id="radial-gradient" cx="40.26" cy="67.39" r="50.48" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#e3d50a" />
+                <stop offset="1" stop-color="#f87c12" />
+              </radialGradient>
+            </defs>
+            <title>logo</title>
+            <polygon class="cls-1" points="59.86 0 44.12 49 63.82 39.3 43.4 89.25 60.85 80.35 61.17 80.52 26.48 134.78 26.32 134.31 34.25 101.06 22.01 106.76 34.95 61.7 16.7 69.85 32.33 15.02 59.54 0 59.86 0 59.86 0" />
+            <path class="cls-2" d="M235.18,252.64c0.27-1.54.32-3.11,0.62-4.65q3.72-19.11,20.75-28.51a37.32,37.32,0,0,1,20.57-4.66c15.11,0.93,26.41,8.11,33.83,21.29a37.26,37.26,0,0,1,4.6,15.86,5.37,5.37,0,0,0,.13.68v4.72c-0.27,1.54-.32,3.11-0.62,4.65q-3.71,19.11-20.75,28.51a37.31,37.31,0,0,1-20.57,4.66c-15.11-.93-26.41-8.11-33.83-21.29a35.71,35.71,0,0,1-3.2-7.73,38.27,38.27,0,0,1-.92-4c-0.25-1.45-.3-2.93-0.55-4.38a15.08,15.08,0,0,1-.07-2.49v-2.61c0.27-1.54,0,1.57,0,0C235.45,251.1,235.18,254.21,235.18,252.64Zm6.61,2.31a33.64,33.64,0,1,0,33.71-33.59A33.71,33.71,0,0,0,241.79,255h0Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M261.95,236.6c1.34,0,2.67,0,4,0,0.66,0,.9-0.12.88-0.85,0-1.63,0-3.27,0-4.9,0-.81,0-1.64,0-2.45a1.15,1.15,0,0,1,.24-0.74,1.25,1.25,0,0,1,.87-0.28c0.76,0,1.54,0,2.3,0a1,1,0,0,1,1.15.9c0.07,0.75,0,1.53,0,2.28s0,1.61,0,2.42,0,1.82,0,2.73a1.14,1.14,0,0,0,.12.7,0.74,0.74,0,0,0,.65.18,22.26,22.26,0,0,1,2.88,0,0.81,0.81,0,0,0,.92-0.27,1.53,1.53,0,0,0,0-.55q0-.38,0-0.76c0-2,0-4,0-6a2.33,2.33,0,0,1,.19-1.25,1.06,1.06,0,0,1,.85-0.37,14.44,14.44,0,0,1,2.65,0,0.93,0.93,0,0,1,.82.47,2.88,2.88,0,0,1,.15,1.22c0,1,0,1.9,0,2.86s0,2.2,0,3.3a2,2,0,0,0,.11,1.13,0.83,0.83,0,0,0,.76.21c6-.34,10.56,4.65,10.61,10.69a10.49,10.49,0,0,1-1.66,6,0.75,0.75,0,0,0,.2,1.2,10.57,10.57,0,0,1,3.46,10.73,9.89,9.89,0,0,1-7.5,7.95,11.29,11.29,0,0,1-2.73.26,17.91,17.91,0,0,0-3.2.09,24.47,24.47,0,0,0-.06,3.21c0,0.89,0,1.79,0,2.68q0,0.68,0,1.37a4.07,4.07,0,0,1-.08,1.26c-0.23.67-1.1,0.62-1.68,0.62s-0.87,0-1.3,0a3.94,3.94,0,0,1-.89-0.07,1,1,0,0,1-.66-1.18c0-2.13,0-4.26,0-6.4a3.12,3.12,0,0,0-.07-1.3,0.64,0.64,0,0,0-.66-0.29c-1.08,0-2.15,0-3.22,0a0.74,0.74,0,0,0-.5.11,0.71,0.71,0,0,0-.16.58c0,0.54,0,1.07,0,1.61,0,1.12,0,2.24,0,3.37q0,0.86,0,1.71a4.3,4.3,0,0,1-.07,1.22,0.89,0.89,0,0,1-.87.6,15.83,15.83,0,0,1-1.61,0c-0.72,0-1.85.18-2-.79a11.29,11.29,0,0,1,0-1.6q0-.86,0-1.71c0-1.11,0-2.22,0-3.32a5.39,5.39,0,0,0,0-1.4,0.8,0.8,0,0,0-1-.4c-2.54,0-5.07,0-7.61,0-1.16,0-1.43-.34-1.2-1.51,0.09-.46.19-0.91,0.26-1.37a4.38,4.38,0,0,1,.24-1.14c0.3-.66,1-0.61,1.58-0.77a3.94,3.94,0,0,0,2.64-2.15,4.88,4.88,0,0,0,.44-2q0-1.73,0-3.46,0-7.11,0-14.23a5,5,0,0,0-2.63-4.9,5.09,5.09,0,0,0-1.48-.53,2.63,2.63,0,0,1-1.28-.35,1.19,1.19,0,0,1-.36-0.92c0-.42,0-0.85,0-1.27,0-.76-0.25-2,0.76-2.22a4.64,4.64,0,0,1,1,0c0.54,0,1.08,0,1.62,0h2.12Zm14.72,20.74v0c-1.52,0-3,0-4.56,0a0.58,0.58,0,0,0-.73.56c0,0.44,0,.89,0,1.33q0,1.51,0,3t0,3c0,0.27,0,.54,0,0.81a1.36,1.36,0,0,0,0,.45,0.57,0.57,0,0,0,.63.3c2.19,0,4.38,0,6.57,0a14.8,14.8,0,0,0,3.11-.13,4.76,4.76,0,0,0,2.07-1,4.61,4.61,0,0,0,1.63-4.08,4.9,4.9,0,0,0-2.34-3.61,5.64,5.64,0,0,0-2.82-.62c-1.21,0-2.41,0-3.62,0h0.65a4.54,4.54,0,0,0-.65,0h0Zm-5.26-9.11c0,1,0,2.09,0,3.13a4.72,4.72,0,0,0,0,1.28c0.1,0.4.53,0.34,0.86,0.34,2.07,0,4.15,0,6.22,0a4.72,4.72,0,0,0,0-9.44c-2.17,0-4.35,0-6.52,0-0.53,0-.59.21-0.59,0.65,0,1.36,0,2.72,0,4.09s0-1.36,0,0C271.4,249.25,271.4,246.87,271.4,248.23Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M334.7,269.87v-25.2h11.7q4.35,0,6.59,2.23a5.82,5.82,0,0,1,1.73,4.28v0.07a5.92,5.92,0,0,1-3.31,5.44,8.34,8.34,0,0,1,3.53,2.34,5.87,5.87,0,0,1,1.19,3.85V263a5.89,5.89,0,0,1-2.52,5.15,11.88,11.88,0,0,1-6.91,1.76h-12Zm14.51-17.68v-0.07a2.22,2.22,0,0,0-.94-1.93,4.63,4.63,0,0,0-2.7-.67H340.1v5.33h5.11Q349.21,254.86,349.21,252.2Zm1.4,10q0-2.74-4.1-2.74H340.1V265h6.59q3.92,0,3.92-2.74v-0.07Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M360.23,248.45v-4.86H366v4.86h-5.76Zm0.14,21.42v-19.3h5.47v19.3h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M377.51,270.2a6,6,0,0,1-4.16-1.31q-1.46-1.31-1.46-4.48v-9.14h-2.3v-4.68h2.3v-4.93h5.47v4.93h4.54v4.68h-4.54v8.24a1.61,1.61,0,0,0,1.76,1.87,5.58,5.58,0,0,0,2.7-.68v4.39A8.28,8.28,0,0,1,377.51,270.2Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M394.5,270.31a9.84,9.84,0,0,1-10-10v-0.07a10.32,10.32,0,0,1,17.82-6.8l-3.35,3.6a6,6,0,0,0-4.39-2.12,4.23,4.23,0,0,0-3.35,1.55,5.5,5.5,0,0,0-1.33,3.71v0.07a5.53,5.53,0,0,0,1.35,3.8,4.5,4.5,0,0,0,3.55,1.53,6.45,6.45,0,0,0,4.43-2.05l3.2,3.24a11.75,11.75,0,0,1-3.38,2.63A10,10,0,0,1,394.5,270.31Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M422.35,267.39a11,11,0,0,1-14.9,0,9.51,9.51,0,0,1-3-7.07v-0.07a9.55,9.55,0,0,1,3-7.13,11,11,0,0,1,14.9,0,9.51,9.51,0,0,1,3,7.07v0.07A9.55,9.55,0,0,1,422.35,267.39Zm-7.4-1.8a4.67,4.67,0,0,0,3.64-1.51,5.38,5.38,0,0,0,1.37-3.74v-0.07a5.4,5.4,0,0,0-1.42-3.76,5.09,5.09,0,0,0-7.29-.05,5.37,5.37,0,0,0-1.37,3.74v0.07a5.4,5.4,0,0,0,1.42,3.76A4.71,4.71,0,0,0,414.95,265.59Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M429.42,248.45v-4.86h5.76v4.86h-5.76Zm0.14,21.42v-19.3H435v19.3h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M440.18,269.87v-19.3h5.47v2.74a7,7,0,0,1,5.65-3.1,6.18,6.18,0,0,1,4.82,1.91,7.55,7.55,0,0,1,1.73,5.26v12.49h-5.47V259.11a4.36,4.36,0,0,0-.86-2.92,3.05,3.05,0,0,0-2.45-1,3.22,3.22,0,0,0-2.5,1,4.19,4.19,0,0,0-.92,2.92v10.76h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M474,269.87v-25.2h5.54v20.16h12.56v5H474Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M495.8,248.45v-4.86h5.76v4.86H495.8Zm0.14,21.42v-19.3h5.47v19.3h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M515.2,275.71a18,18,0,0,1-8.53-2l1.87-4.1a13.1,13.1,0,0,0,6.52,1.76q5.51,0,5.51-5.26v-0.94a9.19,9.19,0,0,1-2.75,2.36,7.48,7.48,0,0,1-3.55.77,8.39,8.39,0,0,1-6.07-2.43,8.73,8.73,0,0,1-2.5-6.57v-0.07a8.7,8.7,0,0,1,2.52-6.57,8.4,8.4,0,0,1,6-2.43,8.16,8.16,0,0,1,6.23,2.88v-2.52H526v14.94q0,5.15-2.45,7.6T515.2,275.71Zm-2.7-13.19a5.13,5.13,0,0,0,6.71,0,4.19,4.19,0,0,0,1.35-3.2v-0.07a4.19,4.19,0,0,0-1.35-3.2,4.74,4.74,0,0,0-3.37-1.26A4.68,4.68,0,0,0,512.5,256a4.22,4.22,0,0,0-1.33,3.2v0.07A4.21,4.21,0,0,0,512.5,262.51Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M530.86,269.87V243.59h5.47v9.72a7,7,0,0,1,5.65-3.1,6.18,6.18,0,0,1,4.82,1.91,7.55,7.55,0,0,1,1.73,5.26v12.49h-5.47V259.11a4.36,4.36,0,0,0-.86-2.92,3.05,3.05,0,0,0-2.45-1,3.22,3.22,0,0,0-2.5,1,4.19,4.19,0,0,0-.92,2.92v10.76h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M559.81,270.2a6,6,0,0,1-4.16-1.31q-1.46-1.31-1.46-4.48v-9.14h-2.3v-4.68h2.3v-4.93h5.47v4.93h4.54v4.68h-4.54v8.24a1.61,1.61,0,0,0,1.76,1.87,5.58,5.58,0,0,0,2.7-.68v4.39A8.27,8.27,0,0,1,559.81,270.2Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M568.23,269.87v-19.3h5.47v2.74a7,7,0,0,1,5.65-3.1,6.18,6.18,0,0,1,4.82,1.91,7.55,7.55,0,0,1,1.73,5.26v12.49h-5.47V259.11a4.36,4.36,0,0,0-.86-2.92,3.05,3.05,0,0,0-2.45-1,3.22,3.22,0,0,0-2.5,1,4.19,4.19,0,0,0-.92,2.92v10.76h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M590.77,248.45v-4.86h5.76v4.86h-5.76Zm0.14,21.42v-19.3h5.47v19.3h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M601.53,269.87v-19.3H607v2.74a7,7,0,0,1,5.65-3.1,6.18,6.18,0,0,1,4.82,1.91,7.55,7.55,0,0,1,1.73,5.26v12.49h-5.47V259.11a4.36,4.36,0,0,0-.86-2.92,3.05,3.05,0,0,0-2.45-1,3.22,3.22,0,0,0-2.5,1,4.19,4.19,0,0,0-.92,2.92v10.76h-5.47Z" transform="translate(-235.16 -188.29)" />
+            <path class="cls-2" d="M632.6,275.71a18,18,0,0,1-8.53-2l1.87-4.1a13.1,13.1,0,0,0,6.52,1.76q5.51,0,5.51-5.26v-0.94a9.19,9.19,0,0,1-2.75,2.36,7.48,7.48,0,0,1-3.55.77,8.39,8.39,0,0,1-6.07-2.43,8.73,8.73,0,0,1-2.5-6.57v-0.07a8.7,8.7,0,0,1,2.52-6.57,8.4,8.4,0,0,1,6-2.43,8.16,8.16,0,0,1,6.23,2.88v-2.52h5.47v14.94q0,5.15-2.45,7.6T632.6,275.71Zm-2.7-13.19a5.13,5.13,0,0,0,6.71,0,4.19,4.19,0,0,0,1.35-3.2v-0.07a4.19,4.19,0,0,0-1.35-3.2,4.74,4.74,0,0,0-3.37-1.26A4.68,4.68,0,0,0,629.9,256a4.22,4.22,0,0,0-1.33,3.2v0.07A4.21,4.21,0,0,0,629.9,262.51Z" transform="translate(-235.16 -188.29)" />
+          </svg>
+          <img src="_assets/images/logo-small.svg" alt="">
         </div>
-        <div class="container-fluid">
-            <a href="/" class="menu_toggler">
-                <span class="line top"></span>
-                <span class="line mid"></span>
-                <span class="line bot"></span>
-            </a>
-            <h2 class="logo">
-                <a href="/">
-                    <span class="logo_icon">
-                       
-                    </span>
-                    <span class="logo_top">expatriates.com</span>
-                    <span class="logo_bot">The online community for expatriates</span>
-                </a>
-            </h2>
-            <nav id="menu" class="main-nav desktop-nav">
-                <ul>
-                    <li class="logo-in-nav">
-                        <h2 class="logo">
-                            <a href="/">
-                                <span class="logo_icon">
-                                    
-                                </span>
-                                <span class="logo_top">expatriates.com</span>
-                                <span class="logo_bot">The online community for expatriates</span>
-                            </a>
-                        </h2>
-                    </li>
-                    <li>
-                        <a href="/"><i class="nav_icon exp-icon-home"></i>Home</a>
-                    </li>
-                    <li>
-                        <a href="/scripts/posting/subscribe.epl">
-                            <i class="nav_icon exp-icon-letter"></i> Subscribe
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/html/contactus.html"><i class="nav_icon exp-icon-letter"></i>Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav_icon icon-signin"></i>Sign In</a>
-                    </li>
-                    <!-- <li>
-                        <a href="#"><i class="nav_icon icon-myprofile"></i>My Profile</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav_icon icon-signout"></i>Sign Out</a>
-                    </li> -->
-                    <li class="btn_li">
-                        <a href="/cgi-local/placead/index.pl" class="btn small"><i class="exp-icon-plus_rounded"></i>Place an Ad</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- MAIN HEADER ends -->
-    <!-- MAIN CONTENT starts -->
-    <div class="main_content">
-        <!-- HOME HERO -->
-        <div class="page_hero">
-            <div class="container">
-                <!-- SEARCH AREA -->
-                <div class="search_area">
-                    <p class="sans home_hero__title hidden-xs">Search within the community for expatriates and internationally minded people eveywhere!</p>
-                    <div class="form_wrap">
-                        <form class="home_search__form">
-                            <div class="row">
-                                <div class="col-sm-3 column">
-                                    <div class="form-group">
-                                        <i class="exp-icon-search"></i>
-                                        <input type="text" class="form-control icon-on-left" placeholder="I'm looking for..." />
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 column">
-                                    <div class="form-group">
-                                        <!-- CATEGORIES DROPDOWN -->
-                                        <div class="dropdown categories_dropdown">
-                                            <div class="dropdown-input" data-toggle="dropdown">
-                                                <input class="form-control" type="text" value="All Categories" />
-                                                <span class="caret"></span>
-                                            </div>
-                                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                                                <li><a href="#">All Categories</a></li>
-                                                <li class="dropdown-submenu">
-                                                    <a tabindex="-1" href="#">Items For sale</a>
-                                                    <div class="dropdown_submenu_wrap">
-                                                        <!-- SUBMENU BACK on Mobile -->
-                                                        <!-- <div class="submenu_back visible-xs visible-sm">
-                                                            <button class="dropdown-back_btn">
-                                                                 <i class="exp-icon-chevron-left"></i>
-                                                            </button>
-                                                           
-                                                        </div> -->
-                                                        <div class="scrollable-y">
-                                                            <ul class="dropdown-menu">
-                                                                <li><a href="#">Appliances</a></li>
-                                                                <li><a href="#">Auto Parts</a></li>
-                                                                <li><a href="#">Baby & Kid Stuff</a></li>
-                                                                <li><a href="#">Bicycles</a></li>
-                                                                <li><a href="#">Boats</a></li>
-                                                                <li><a href="#">Books</a></li>
-                                                                <li>
-                                                                    <a href="#">Clothing & Accessories</a>
-                                                                </li>
-                                                                <li><a href="#">Collectibles</a></li>
-                                                                <li><a href="#">Computers</a></li>
-                                                                <li><a href="#">Electronics</a></li>
-                                                                <li><a href="#">Free Items</a></li>
-                                                                <li><a href="#">Furniture</a></li>
-                                                                <li><a href="#">Health & Beauty</a></li>
-                                                                <li><a href="#">Household Items</a></li>
-                                                                <li><a href="#">Jewelry</a></li>
-                                                                <li><a href="#">Materials</a></li>
-                                                                <li><a href="#">Mobile Phones</a></li>
-                                                                <li><a href="#">Collectibles</a></li>
-                                                                <li><a href="#">Computers</a></li>
-                                                                <li><a href="#">Electronics</a></li>
-                                                                <li><a href="#">Free Items</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li><a href="#">Items Wanted</a></li>
-                                                <li class="dropdown-submenu">
-                                                    <a href="#">Community</a>
-                                                </li>
-                                                <li><a href="#">Jobs Offered</a></li>
-                                                <li><a href="#">Jobs Wanted</a></li>
-                                                <li class="dropdown-submenu"><a href="#">Childcare</a></li>
-                                                <li class="dropdown-submenu"><a href="#">Housing Available</a></li>
-                                                <li><a href="#">Housing Wanted</a></li>
-                                                <li><a href="#">Matrimonials</a></li>
-                                                <li><a href="#">Learning</a></li>
-                                                <li><a href="#">Business</a></li>
-                                                <li><a href="#">Services</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- CATEGORIES DROPDOWN end-->
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 column">
-                                    <div class="form-group">
-                                        <div class="dropdown locations_dropdown">
-                                            <div class="dropdown-input" data-toggle="dropdown">
-                                                <i class="exp-icon-location"></i>
-                                                <input id="locationAutocomplete" type="text" class="form-control icon-on-left" placeholder="Location" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Location'" />
-                                            </div>
-                                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                                                <li class="dropdown-submenu"><a href="#">Afrika</a></li>
-                                                <li class="dropdown-submenu">
-                                                    <a tabindex="-1" href="#">Asia</a>
-                                                    <div class="dropdown_submenu_wrap">
-                                                        <!-- SUBMENU BACK on Mobile -->
-                                                        <!-- <div class="submenu_back visible-xs visible-sm">
-                                                            <button class="dropdown-back_btn">
-                                                                 <i class="exp-icon-chevron-left"></i>
-                                                            </button>
-                                                        </div> -->
-                                                        <div class="scrollable-y">
-                                                            <ul class="dropdown-menu">
-                                                                <li>
-                                                                    <a href="#">Afghanistan</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Armenia</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Bahrain</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Bahrainx</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Bangladesh</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Brunei</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Cabmodia</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">China</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">India</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Indonesia</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Iran</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Iraq</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Israel</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Japan</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Jordan</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Kazakhstan</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a href="#">Australia & Oceania</a>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a href="#">Europe</a>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a href="#">Latin America & Caribbean</a>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a href="#">North America</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 column btn_column">
-                                    <div class="form-group">
-                                        <button class="btn btn-primary">Search</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- SEARCH AREA ends -->
-            </div>
-        </div>
-        <!-- HOME HERO ends -->
-        <!-- HERO BOT -->
-        <div class="home_hero__bottom">
-            <div class="container-fluid">
-                <div class="row table_layout">
-                    <div class="col table_cell hidden-xs">
-                        <p class="sans">We invite you to place a free classified ad and browse community classifieds ads in your city or country</p>
-                    </div>
-                    <div class="col table_cell btn_col">
-                        <a class="btn btn-primary" href="#">Place a Free Ad</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- HERO BOT ends-->
-        <!-- ADS SLIDER -->
-        <div class="page_section darker_bg ads_slider__section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="home_section__title">Premium / Recent Ads</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 slider_paddings">
-                        <div class="ads_slider__self owl-carousel">
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_03.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_05.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_07.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_03.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad in_favorites" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_05.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_07.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_03.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad in_favorites" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                            <div class="one_slide">
-                                <article class="ad_box">
-                                    <a href="#">
-                                        <!-- AD IMAGE -->
-                                        <div class="image_holder">
-                                            <div class="image_self" style="background-image: url(images/ad-image_05.jpg)">
-                                            </div>
-                                        </div>
-                                        <!-- AD DESCRIPTION -->
-                                        <div class="ad_descr">
-                                            <p>BHD 7700 / Jeep, 2016, auto 1 KMBrand New 0 km jeep...</p>
-                                        </div>
-                                    </a>
-                                    <a class="star_ad" href="#">
-                                        <i class="exp-icon-noun_61590"></i>
-                                    </a>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ADS SLIDER ends -->
-        <!-- POPULAR LOCATIONS -->
-        <div class="page_section popular_locations">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="home_section__title">Popular Locations</h3>
-                    </div>
-                </div>
-                <div class="row hidden-xs desktop_version">
-                    <div class="col-md-2 col-sm-4">
-                        <div class="locations_group">
-                            <h4 class="locations_group__title"><a href="#">Bahrain</a></h4>
-                            <ul>
-                                <li><a href="#">Amman (424)</a></li>
-                                <li><a href="#">Amsterdam (210)</a></li>
-                                <li><a href="#">Athens (132)</a></li>
-                                <li><a href="#">Bucharest (70)</a></li>
-                                <li><a href="#">Budapest (60)</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4">
-                        <div class="locations_group">
-                            <h4 class="locations_group__title"><a href="#">Riyadh</a></h4>
-                            <ul>
-                                <li><a href="#">Beijing (504)</a></li>
-                                <li><a href="#">Brussels (331)</a></li>
-                                <li><a href="#">Bratislava (46)</a></li>
-                                <li><a href="#">Lisbon (52)</a></li>
-                                <li><a href="#">Zagreb</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4">
-                        <div class="locations_group">
-                            <h4 class="locations_group__title"><a href="#">Jeddah</a></h4>
-                            <ul>
-                                <li><a href="#">Dubai (556)</a></li>
-                                <li><a href="#">Doha (347)</a></li>
-                                <li><a href="#">Geneva (104)</a></li>
-                                <li><a href="#">Ho Chi Minh City (208)</a></li>
-                                <li><a href="#">Baku (370)</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4">
-                        <div class="locations_group">
-                            <h4 class="locations_group__title"><a href="#">Dammam</a></h4>
-                            <ul>
-                                <li><a href="#">Jakarta</a></li>
-                                <li><a href="#">Jubail</a></li>
-                                <li><a href="#">Karachi</a></li>
-                                <li><a href="#">Bucharest</a></li>
-                                <li><a href="#">Kuala Lumpur</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4">
-                        <div class="locations_group">
-                            <h4 class="locations_group__title"><a href="#">Bahrain</a></h4>
-                            <ul>
-                                <li><a href="#">Amman (424)</a></li>
-                                <li><a href="#">Amsterdam (210)</a></li>
-                                <li><a href="#">Athens (132)</a></li>
-                                <li><a href="#">Bucharest (70)</a></li>
-                                <li><a href="#">Budapest (60)</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4">
-                        <div class="locations_group">
-                            <h4 class="locations_group__title"><a href="#">Bahrain</a></h4>
-                            <ul>
-                                <li><a href="#">Amman (424)</a></li>
-                                <li><a href="#">Amsterdam (210)</a></li>
-                                <li><a href="#">Athens (132)</a></li>
-                                <li><a href="#">Bucharest (70)</a></li>
-                                <li><a href="#">Budapest (60)</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row visible-xs mobile_version">
-                    <div class="col-xs-12">
-                        <!-- POPULAR LOCATIONS ON MOBILE -->
-                        <div class="locations_mobile">
-                            <div class="one_cont_collapse">
-                                <a href="#pl_cont_collapse1" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pl_cont_collapse1">Bahrain  <i class="exp-icon-noun_348542_cc"></i>  </a>
-                                <div class="collapse" id="pl_cont_collapse1">
-                                    <ul>
-                                        <li><a href="#">Amman (424)</a></li>
-                                        <li><a href="#">Amsterdam (210)</a></li>
-                                        <li><a href="#">Athens (132)</a></li>
-                                        <li><a href="#">Bucharest (70)</a></li>
-                                        <li><a href="#">Budapest (60)</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="one_cont_collapse">
-                                <a href="#pl_cont_collapse2" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pl_cont_collapse2">Riyadh  <i class="exp-icon-noun_348542_cc"></i>  </a>
-                                <div class="collapse" id="pl_cont_collapse2">
-                                    <ul>
-                                        <li><a href="#">Beijing (504)</a></li>
-                                        <li><a href="#">Brussels (331)</a></li>
-                                        <li><a href="#">Bratislava (46)</a></li>
-                                        <li><a href="#">Lisbon (52)</a></li>
-                                        <li><a href="#">Zagreb</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="one_cont_collapse">
-                                <a href="#pl_cont_collapse3" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pl_cont_collapse3">Jeddah  <i class="exp-icon-noun_348542_cc"></i>  </a>
-                                <div class="collapse" id="pl_cont_collapse3">
-                                    <ul>
-                                        <li><a href="#">Dubai (556)</a></li>
-                                        <li><a href="#">Doha (347)</a></li>
-                                        <li><a href="#">Geneva (104)</a></li>
-                                        <li><a href="#">Ho Chi Minh City (208)</a></li>
-                                        <li><a href="#">Baku (370)</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="one_cont_collapse">
-                                <a href="#pl_cont_collapse4" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pl_cont_collapse4">Bahrain  <i class="exp-icon-noun_348542_cc"></i>  </a>
-                                <div class="collapse" id="pl_cont_collapse4">
-                                    <ul>
-                                        <li><a href="#">Jakarta</a></li>
-                                        <li><a href="#">Jubail</a></li>
-                                        <li><a href="#">Karachi</a></li>
-                                        <li><a href="#">Bucharest</a></li>
-                                        <li><a href="#">Kuala Lumpur</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="one_cont_collapse">
-                                <a href="#pl_cont_collapse5" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pl_cont_collapse5">Riyadh  <i class="exp-icon-noun_348542_cc"></i>  </a>
-                                <div class="collapse" id="pl_cont_collapse5">
-                                    <ul>
-                                        <li><a href="#">Beijing (504)</a></li>
-                                        <li><a href="#">Brussels (331)</a></li>
-                                        <li><a href="#">Bratislava (46)</a></li>
-                                        <li><a href="#">Lisbon (52)</a></li>
-                                        <li><a href="#">Zagreb</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="one_cont_collapse">
-                                <a href="#pl_cont_collapse6" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pl_cont_collapse6">Jeddah  <i class="exp-icon-noun_348542_cc"></i>  </a>
-                                <div class="collapse" id="pl_cont_collapse6">
-                                    <ul>
-                                        <li><a href="#">Dubai (556)</a></li>
-                                        <li><a href="#">Doha (347)</a></li>
-                                        <li><a href="#">Geneva (104)</a></li>
-                                        <li><a href="#">Ho Chi Minh City (208)</a></li>
-                                        <li><a href="#">Baku (370)</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- POPULAR LOCATIONS ends -->
-        <!-- BROWSE CONTINENTS -->
-        <div class="page_section darker_bg browse_continents">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="home_section__title">Browse Continents</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="one_cont_collapse">
-                            <a href="#cont_collapse1" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cont_collapse1">Afrika  <i class="exp-icon-arrow_down"></i>  </a>
-                            <div class="collapse" id="cont_collapse1">
-                                <ul>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="one_cont_collapse">
-                            <a href="#cont_collapse2" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cont_collapse2">Asiai   <i class="exp-icon-arrow_down"></i>  </a>
-                            <div class="collapse" id="cont_collapse2">
-                                <ul>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="one_cont_collapse">
-                            <a href="#cont_collapse3" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cont_collapse3">Australia & Oceaniai    <i class="exp-icon-arrow_down"></i>  </a>
-                            <div class="collapse" id="cont_collapse3">
-                                <ul>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="one_cont_collapse">
-                            <a href="#cont_collapse4" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cont_collapse4">Europe  <i class="exp-icon-arrow_down"></i>  </a>
-                            <div class="collapse" id="cont_collapse4">
-                                <ul>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="one_cont_collapse">
-                            <a href="#cont_collapse5" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cont_collapse5">Latin America & Caribbeani  <i class="exp-icon-arrow_down"></i>  </a>
-                            <div class="collapse" id="cont_collapse5">
-                                <ul>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="one_cont_collapse">
-                            <a href="#cont_collapse6" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cont_collapse6">North Americai  <i class="exp-icon-arrow_down"></i>  </a>
-                            <div class="collapse" id="cont_collapse6">
-                                <ul>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                    <li><a href="#">One Continent</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- BROWSE CONTINENTS ends -->
-        <!-- BROWSE CATEGORIES -->
-        <div class="page_section browse_categories">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="home_section__title">Browse Categories</h3>
-                    </div>
-                </div>
-
-
-                <!-- MOBILE VERSION -->
-                <div class="row gutter-10 visible-xs">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse1" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse1">Items for sale (14524)</a></h4>
-                            <div class="collapse" id="cat_collapse1">
-                                <ul>
-                                    <li><a href="#">Appliances</a></li>
-                                    <li><a href="#">Auto Parts</a></li>
-                                    <li><a href="#">Baby & Kid Stuff</a></li>
-                                    <li><a href="#">Bicycles</a></li>
-                                    <li><a href="#">Boats</a></li>
-                                    <li><a href="#">Books</a></li>
-                                    <li><a href="#">Clothing & Accessories</a></li>
-                                    <li><a href="#">Collectibles</a></li>
-                                    <li><a href="#">Computers</a></li>
-                                    <li><a href="#">Electronics</a></li>
-                                    <li><a href="#">Free Items</a></li>
-                                    <li><a href="#">Furniture</a></li>
-                                    <li><a href="#">Health & Beauty</a></li>
-                                    <li><a href="#">Household Items</a></li>
-                                    <li><a href="#">Jewelry</a></li>
-                                    <li><a href="#">Materials</a></li>
-                                    <li><a href="#">Mobile Phones</a></li>
-                                    <li><a href="#">Motorcycles</a></li>
-                                    <li><a href="#">Musical Instruments</a></li>
-                                    <li><a href="#">Photo & Video</a></li>
-                                    <li><a href="#">Purses & Wallets</a></li>
-                                    <li><a href="#">Sports</a></li>
-                                    <li><a href="#">Tablets</a></li>
-                                    <li><a href="#">Motorcycles</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box without_list">
-                            <h4 class="category_box_title"><a href="#cat_collapse2" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="cat_collapse2">Items wanted (2476)</a></h4>
-                            <div class="collapse in" id="cat_collapse2">
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse3" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse3">Community (1050)</a></h4>
-                            <div class="collapse" id="cat_collapse3">
-                                <ul>
-                                    <li><a href="#">Artists</a></li>
-                                    <li><a href="#">General</a></li>
-                                    <li><a href="#">Local News</a></li>
-                                    <li><a href="#">Lost & Found</a></li>
-                                    <li><a href="#">Musicians</a></li>
-                                    <li><a href="#">Pets</a></li>
-                                    <li><a href="#">Rideshare</a></li>
-                                    <li><a href="#">Sports</a></li>
-                                    <li><a href="#">Events</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse4" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse4">Jobs Offered (2320)</a></h4>
-                            <div class="collapse" id="cat_collapse4">
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse5" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse5">Jobs Wanted (1896)</a></h4>
-                            <div class="collapse" id="cat_collapse5">
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse6" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse6">Childcare (1260)</a></h4>
-                            <div class="collapse" id="cat_collapse6">
-                                <ul>
-                                    <li><a href="#">Nursery Schools</a></li>
-                                    <li><a href="#">Positions Offered</a></li>
-                                    <li><a href="#">Positions Wanted</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse7" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse7">Housing Available (4560)</a></h4>
-                            <div class="collapse" id="cat_collapse7">
-                                <ul>
-                                    <li><a href="#">Apartments/Flats/Houses</a></li>
-                                    <li><a href="#">Holiday/Vacation Rentals</a></li>
-                                    <li><a href="#">Housing Exchanges</a></li>
-                                    <li><a href="#">Real Estate For Sale</a></li>
-                                    <li><a href="#">Bedspace Available</a></li>
-                                    <li><a href="#">Commercial/Office</a></li>
-                                    <li><a href="#">Rooms Available</a></li>
-                                    <li><a href="#">Sublets</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse8" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse8">Housing Wanted (3620)</a></h4>
-                            <div class="collapse" id="cat_collapse8">
-                                <ul>
-                                    <li>
-                                        <a href="#">Apts/Flats Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Real Estate Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Short-term Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Bedspace Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Rooms Wanted</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse9" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse9">Learning (1480)</a></h4>
-                            <div class="collapse" id="cat_collapse9">
-                                <ul>
-                                    <li>
-                                        <a href="#">Language Exchange</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Lessons Offered</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Lessons Wanted</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse10" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse10">Business (962)</a></h4>
-                            <div class="collapse" id="cat_collapse10">
-                                <ul>
-                                    <li>
-                                        <a href="#">Business Partners</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Businesses For Sale</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Wholesale Products</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse11" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cat_collapse11">Services (10320)</a></h4>
-                            <div class="collapse" id="cat_collapse11">
-                                <ul>
-                                    <li>
-                                        <a href="#">Automotive</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Beautician</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Business</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Computer</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Construction</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Counseling</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Creative</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Education</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Elder Care</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Event Planning</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Farm/Garden</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Financial</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Food & Drink</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Guides/Interpreters</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Household</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Immigration</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Labor/Moving</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Legal</a>
-                                    </li>
-                                    <li><a href="#">Pet Sitting</a></li>
-                                    <li><a href="#">Pick Up & Drop Off</a></li>
-                                    <li><a href="#">Real Estate</a></li>
-                                    <li><a href="#">Relocation</a></li>
-                                    <li><a href="#">Security</a></li>
-                                    <li><a href="#">Tax Preparation</a></li>
-                                    <li><a href="#">Technical</a></li>
-                                    <li><a href="#">Training</a></li>
-                                    <li><a href="#">Translation</a></li>
-                                    <li><a href="#">Transportation</a></li>
-                                    <li><a href="#">Travel</a></li>
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">Writing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- DESKTOP VERSION -->
-                <div class="row gutter-10 hidden-xs">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse1" role="button" aria-expanded="true" aria-controls="cat_collapse1">Items for sale (14524)</a></h4>
-                            <div class="collapse in" id="cat_collapse1">
-                                <ul>
-                                    <li><a href="#">Appliances</a></li>
-                                    <li><a href="#">Auto Parts</a></li>
-                                    <li><a href="#">Baby & Kid Stuff</a></li>
-                                    <li><a href="#">Bicycles</a></li>
-                                    <li><a href="#">Boats</a></li>
-                                    <li><a href="#">Books</a></li>
-                                    <li><a href="#">Clothing & Accessories</a></li>
-                                    <li><a href="#">Collectibles</a></li>
-                                    <li><a href="#">Computers</a></li>
-                                    <li><a href="#">Electronics</a></li>
-                                    <li><a href="#">Free Items</a></li>
-                                    <li><a href="#">Furniture</a></li>
-                                    <li><a href="#">Health & Beauty</a></li>
-                                    <li><a href="#">Household Items</a></li>
-                                    <li><a href="#">Jewelry</a></li>
-                                    <li><a href="#">Materials</a></li>
-                                    <li><a href="#">Mobile Phones</a></li>
-                                    <li><a href="#">Motorcycles</a></li>
-                                    <li><a href="#">Musical Instruments</a></li>
-                                    <li><a href="#">Photo & Video</a></li>
-                                    <li><a href="#">Purses & Wallets</a></li>
-                                    <li><a href="#">Sports</a></li>
-                                    <li><a href="#">Tablets</a></li>
-                                    <li><a href="#">Motorcycles</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box without_list">
-                            <h4 class="category_box_title"><a href="#cat_collapse2" role="button" aria-expanded="true" aria-controls="cat_collapse2">Items wanted (2476)</a></h4>
-                            <div class="collapse in" id="cat_collapse2">
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse3" role="button" aria-expanded="true" aria-controls="cat_collapse3">Community (1050)</a></h4>
-                            <div class="collapse in" id="cat_collapse3">
-                                <ul>
-                                    <li><a href="#">Artists</a></li>
-                                    <li><a href="#">General</a></li>
-                                    <li><a href="#">Local News</a></li>
-                                    <li><a href="#">Lost & Found</a></li>
-                                    <li><a href="#">Musicians</a></li>
-                                    <li><a href="#">Pets</a></li>
-                                    <li><a href="#">Rideshare</a></li>
-                                    <li><a href="#">Sports</a></li>
-                                    <li><a href="#">Events</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse4" role="button" aria-expanded="true" aria-controls="cat_collapse4">Jobs Offered (2320)</a></h4>
-                            <div class="collapse in" id="cat_collapse4">
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse5" role="button" aria-expanded="true" aria-controls="cat_collapse5">Jobs Wanted (1896)</a></h4>
-                            <div class="collapse in" id="cat_collapse5">
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse6" role="button" aria-expanded="true" aria-controls="cat_collapse6">Childcare (1260)</a></h4>
-                            <div class="collapse in" id="cat_collapse6">
-                                <ul>
-                                    <li><a href="#">Nursery Schools</a></li>
-                                    <li><a href="#">Positions Offered</a></li>
-                                    <li><a href="#">Positions Wanted</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse7" role="button" aria-expanded="true" aria-controls="cat_collapse7">Housing Available (4560)</a></h4>
-                            <div class="collapse in" id="cat_collapse7">
-                                <ul>
-                                    <li><a href="#">Apartments/Flats/Houses</a></li>
-                                    <li><a href="#">Holiday/Vacation Rentals</a></li>
-                                    <li><a href="#">Housing Exchanges</a></li>
-                                    <li><a href="#">Real Estate For Sale</a></li>
-                                    <li><a href="#">Bedspace Available</a></li>
-                                    <li><a href="#">Commercial/Office</a></li>
-                                    <li><a href="#">Rooms Available</a></li>
-                                    <li><a href="#">Sublets</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse8" role="button" aria-expanded="true" aria-controls="cat_collapse8">Housing Wanted (3620)</a></h4>
-                            <div class="collapse in" id="cat_collapse8">
-                                <ul>
-                                    <li>
-                                        <a href="#">Apts/Flats Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Real Estate Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Short-term Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Bedspace Wanted</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Rooms Wanted</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse9" role="button" aria-expanded="true" aria-controls="cat_collapse9">Learning (1480)</a></h4>
-                            <div class="collapse in" id="cat_collapse9">
-                                <ul>
-                                    <li>
-                                        <a href="#">Language Exchange</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Lessons Offered</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Lessons Wanted</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse10" role="button" aria-expanded="true" aria-controls="cat_collapse10">Business (962)</a></h4>
-                            <div class="collapse in" id="cat_collapse10">
-                                <ul>
-                                    <li>
-                                        <a href="#">Business Partners</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Businesses For Sale</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Wholesale Products</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="category_box">
-                            <h4 class="category_box_title"><a href="#cat_collapse11" role="button" aria-expanded="true" aria-controls="cat_collapse11">Services (10320)</a></h4>
-                            <div class="collapse in" id="cat_collapse11">
-                                <ul>
-                                    <li>
-                                        <a href="#">Automotive</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Beautician</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Business</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Computer</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Construction</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Counseling</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Creative</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Education</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Elder Care</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Event Planning</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Farm/Garden</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Financial</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Food & Drink</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Guides/Interpreters</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Household</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Immigration</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Labor/Moving</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Legal</a>
-                                    </li>
-                                    <li><a href="#">Pet Sitting</a></li>
-                                    <li><a href="#">Pick Up & Drop Off</a></li>
-                                    <li><a href="#">Real Estate</a></li>
-                                    <li><a href="#">Relocation</a></li>
-                                    <li><a href="#">Security</a></li>
-                                    <li><a href="#">Tax Preparation</a></li>
-                                    <li><a href="#">Technical</a></li>
-                                    <li><a href="#">Training</a></li>
-                                    <li><a href="#">Translation</a></li>
-                                    <li><a href="#">Transportation</a></li>
-                                    <li><a href="#">Travel</a></li>
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">Writing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- BROWSE CATEGORIES ends -->
-        <!-- APP DOWNLOAD -->
-        <div class="page_section darker_bg app_download">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="app_download__logo" src="images/app-logo_03.png" />
-                        <p class="sans app_download__content">Android mobile app is now available for testing. To try it, please sign up <a href="#">here</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- APP DOWNLOAD ends -->
+      </div>
+      <div class="col-auto ml-auto d-none d-md-block">
+        <nav class="btc-nav">
+          <ul class="m-0 p-0">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">features</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-auto d-none d-md-block">
+        <button class="btn-reg">Register</button>
+        <button class="btn-sign">Sign in</button>
+      </div>
+      <div class="col-auto ml-auto d-md-none">
+        <button class="navbar-toggler">
+          <span class="line top"></span>
+          <span class="line mid"></span>
+          <span class="line bot"></span>
+        </button>
+      </div>
     </div>
-    <!-- MAIN CONTENT ends -->
-    <!-- FOOTER -->
-    <footer>
-        <div class="container-fluid">
-            <!-- FOOTER TOP -->
-            <div class="row footer_top">
-                <div class="col-md-9 footer_top__left">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="footer_col">
-                                <h4 class="footer_col__title">Platform</h4>
-                                <ul>
-                                    <li><a href="#">Advertising</a></li>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">System Status</a></li>
-                                    <li><a href="#">Unsubscribe</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6 text-right-xs">
-                            <div class="footer_col">
-                                <h4 class="footer_col__title">Support</h4>
-                                <ul>
-                                    <li><a href="#">Contact support</a></li>
-                                    <li><a href="#">Give feedback</a></li>
-                                    <li><a href="#">Knowledge Base</a></li>
-                                    <li><a href="#">All articles</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="footer_col">
-                                <h4 class="footer_col__title">Contact Us</h4>
-                                <ul>
-                                    <li><a href="#">Post a new idea</a></li>
-                                    <li><a href="#">All ideas</a></li>
-                                    <li><a href="#">My feedback</a></li>
-                                    <li><a href="#">General Feedback</a></li>
-                                    <li><a href="#">Report Defect</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 footer_top__right">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a class="btn btn-primary hidden-xs" href="#">Place a Free Ad</a>
-                            <div class="follow_place">
-                                <div class="row gutter-10">
-                                    <div class="col-xs-4 text-left">
-                                        <p>Follow us</p>
-                                    </div>
-                                    <div class="col-xs-8 text-right">
-                                        <ul class="social_ul">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="exp-icon-facebook-logo"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="exp-icon-instagram-logo"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="exp-icon-twitter-logo"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  </div>
+</header>
+<nav class="mobile-navigation">
+
+</nav>
+<!--HEADER///-->
+<main>
+  <section class="page-section page-hero">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-10">
+          <div class="page-hero--inner text-center">
+            <img class="mx-auto" style="width: 135px;height: 220px" src="_assets/images/logo-small.svg" alt="">
+            <h1 class="mt-0">Transactions at the Speed of Light</h1>
+            <p>Masternodes. Masternodes are a second tier of the network
+              <br> making the super fast transaction speeds possible.</p>
+            <div class="page-hero--action">
+              <a class="btn-download mx-auto"> <i class="icon-download"></i>
+                <span>DOWNLOAD WHITEPAPER</span>
+              </a>
             </div>
-            <!-- FOOTER TOP ends-->
-            <!-- FOOTER BOTTOM -->
-            <div class="row footer_bottom">
-                <div class="col-md-12">
-                    <p class="footer_copy">Copyright 2017 Expatriates.com | All rights reserved</p>
-                </div>
-            </div>
-            <!-- FOOTER BOTTOM ends -->
+          </div>
         </div>
-    </footer>
-    <!-- FOOTER ends -->
+      </div>
+    </div>
+  </section>
+  <section class="page-section page-features">
+    <div class="container-fluid">
+      <div class="page-features--header">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xs-10 col-md-6 text-center">
+            <h1 class="mt-0">Our Features</h1>
+            <p class="mt-0">A team member focuses on a 'we' mentality that includes creating
+              remarkable experiences with others in the company</p>
+          </div>
+        </div>
+      </div>
+      <div class="page-features--body">
+        <div class="row justify-content-between">
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="page-features--block mx-auto">
+              <div class="features-block--wrapper">
+                <img src="_assets/images/features-1.png" alt="">
+              </div>
+              <div class="features-block--body">
+                <h3 class="features-block--heading"> Masternodes and Staking</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="page-features--block mx-auto">
+              <div class="features-block--wrapper">
+                <img src="_assets/images/features-2.png" alt="">
+              </div>
+              <div class="features-block--body">
+                <h3 class="features-block--heading">Lightning Fast</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 text-center">
+            <div class="page-features--block mx-auto">
+              <div class="features-block--wrapper">
+                <img src="_assets/images/features-03.png" alt="">
+              </div>
+              <div class="features-block--body">
+                <h3 class="features-block--heading">Anonymous</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section page-specifications pb-0">
+    <div class="container-fluid">
+      <div class="page-specifications--header">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xs-10 col-md-6 text-center">
+            <div class="specification-header--top">
+              <h1 class="m-0">Our Specifications</h1>
+            </div>
+            <div class="specification-header--bottom">
+              <p class="mt-0 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-specifications--body">
+        <div class="row justify-content-between">
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="specifications-block">
+              <div class="specifications-block--header">
+                <img src="_assets/images/specific-1.png" alt="">
+                <h3>CoinTicker : BLT</h3>
+              </div>
+              <div class="specifications-block--body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="specifications-block">
+              <div class="specifications-block--header">
+                <img src="_assets/images/specific-2.png" alt="">
+                <h3>Max Supply: 70,000,000 coin</h3>
+              </div>
+              <div class="specifications-block--body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="specifications-block">
+              <div class="specifications-block--header">
+                <img src="_assets/images/specific-3.png" alt="">
+                <h3> Block Time: 90 seconds</h3>
+              </div>
+              <div class="specifications-block--body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="specifications-block">
+              <div class="specifications-block--header">
+                <img src="_assets/images/specific-1.png" alt="">
+                <h3>PoS Block Reward</h3>
+              </div>
+              <div class="specifications-block--body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="specifications-block">
+              <div class="specifications-block--header">
+                <img src="_assets/images/specific-2.png" alt="">
+                <h3> Stake age : 6 Hr</h3>
+              </div>
+              <div class="specifications-block--body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xs-6 col-sm-4 text-center">
+            <div class="specifications-block">
+              <div class="specifications-block--header">
+                <img src="_assets/images/specific-3.png" alt="">
+                <h3>75% Block Reward for masternodes</h3>
+              </div>
+              <div class="specifications-block--body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div class="page-specifications&#45;&#45;footer">-->
+      <!--<div class="specification-footer&#45;&#45;wrap">-->
+      <!--<img src="_assets/images/image.png" alt="">-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="page-specifications--bg">
+      <div class="image"></div>
+    </div>
+  </section>
+  
+  <section class="page-section page-about pb-0">
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-6 align-self-center">
+          <h1 class="mt-0">About Bitcoin Lightning</h1>
+          <p>Masternodes. Masternodes are a second tier of the network making the super fast transaction speeds possible. They also provide the dark send feature keeping your transactions anonymous if you’d like, as they provide an important functionality to the network masternode owners will be rewarded with block rewards (coins) Bitcoin Lightning is designed to give maternoade investors ( you will need 3000 coins to set one up) a very high rate of interest far exceeding local banks making it an ideal investment coin but you don’t have to be a masternode owner to benefit from this as bitcoin lightning also stakes in your wallet. Essentially, the more coins you have the more weight you will have on the network and the faster your coins will grow. </p>
+        </div>
+        <div class="col-12 col-md-6 align-self-bottom">
+          <img class="img-responsive  mx-auto" src="_assets/images/vector.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer--top">
+      <div class="container-fluid">
+        <div class="row justify-content-around">
+          <div class="col-6 col-sm-auto align-self-start align-self-sm-center">
+            <div class="soc-link">
+              <ul class="p-0">
+                <li><a href="#"> <i class="icon-facebook"></i> </a></li>
+                <li><a href="#"> <i class="icon-twitter"></i> </a></li>
+                <li><a href="#"> <i class="icon-linkedin"></i> </a></li>
+                <li><a href="#"> <i class="icon-youtube"></i> </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-sm-auto">
+            <h4>What we do</h4>
+            <ul class="main-footer--links p-0">
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Product & Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-auto">
+            <h4>Support</h4>
+            <ul class="main-footer--links p-0">
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Knowledge Base</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-auto">
+            <h4>Contact Us</h4>
+            <ul class="main-footer--links p-0">
+              <li>
+                <a href="#"><i class="icon-call"></i>Sales: 1-256-3000-1236</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon-message"></i>support@ BitCoin Lightning</a>
+              </li>
+              <li>
+                <a class="media-info" href="#">Media Inquries</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer--bottom">
+      <div class="container-fluid">
+        <div class="row justify-contern-center">
+          <div class="col-12 text-center">
+            <p class="mt-0 mb-0">© 2018 BitCoin Lightning. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
 
+</main>
 
-    <!-- build:js(src) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- run `gulp inject` to automatically populate bower script dependencies -->
-    <!-- endbower -->
-    <!-- inject:plugin:js -->
-    <!-- plugin js files will be automatically insert here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+<!-- build:js(src) scripts/vendor.js -->
+<!-- bower:js -->
+<!-- run `gulp inject` to automatically populate bower script dependencies -->
+<!-- endbower -->
+<!-- inject:plugin:js -->
+<!-- plugin js files will be automatically insert here -->
+<!-- endinject -->
+<!-- endbuild -->
 
-    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
-    <!-- inject:js -->
-    <!-- js files will be automatically insert here -->
-    <!-- endinject -->
+<!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+<!-- inject:js -->
+<!-- js files will be automatically insert here -->
+<!-- endinject -->
 
-    <!-- inject:partials -->
-    <!-- angular templates will be automatically converted in js and inserted here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+<!-- inject:partials -->
+<!-- angular templates will be automatically converted in js and inserted here -->
+<!-- endinject -->
+<!-- endbuild -->
 
 </body>
 

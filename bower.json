@@ -1,11 +1,12 @@
 {
-  "name": "Expatriates",
+  "name": "bitcoin",
+  "description": "",
+  "main": "",
   "authors": [
     "prod1992 <levon1.grigoryan@gmail.com>"
   ],
-  "description": "Ads Listing",
-  "license": "MIT",
-  "homepage": "",
+  "license": "private",
+  "homepage": "https://github.com/SAMVELHARUTYUNYAN/bitcoin",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,21 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "perfect-scrollbar": "^0.7.0",
-    "owl.carousel": "^2.2.1",
-    "bootstrap-sass": "^3.3.7",
-    "select2": "^4.0.3",
-    "jquery-ui": "^1.12.1"
-  },
-  "overrides": {
-    "perfect-scrollbar": {
-      "dependencies": {
-        "jquery": "*"
-      },
-      "main": [
-        "css/perfect-scrollbar.css",
-        "js/perfect-scrollbar.jquery.js"
-      ]
-    }
+    "normalize-css": "normalize.css#^7.0.0",
+    "jquery": "^3.3.1"
   }
 }
