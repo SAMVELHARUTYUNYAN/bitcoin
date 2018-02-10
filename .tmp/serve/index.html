@@ -27,7 +27,7 @@
 <header class="btc-header">
   <div class="container-fluid">
     <div class="row align-items-center justify-content-between">
-      <div class="col-auto">
+      <div class="col-auto d-none d-md-block">
         <div class="btc-logo">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 408.2 134.78">
             <defs>
@@ -92,8 +92,17 @@
   </div>
 </header>
 <nav class="mobile-navigation">
-  <div class="mobil-header">
-  
+  <ul class="mobile-nav text-center p-0">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT US</a></li>
+    <li><a href="#">FEATURES</a></li>
+    <li><a href="#">CONTACT US</a></li>
+  </ul>
+  <div class="mobile-btn">
+    <div class="row text-center">
+      <div class="col-12"><button class="btn-reg">Register</button></div>
+      <div class="col-12"><button class="btn-sign m-0">Sign in</button></div>
+    </div>
   </div>
 </nav>
 <!--HEADER///-->
@@ -103,7 +112,7 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-10">
           <div class="page-hero--inner text-center">
-            <img class="mx-auto" style="width: 135px;height: 220px" src="_assets/images/logo-small.svg" alt="">
+            <img class="mx-auto" src="_assets/images/logo-small.svg" alt="">
             <h1 class="mt-0">Transactions at the Speed of Light</h1>
             <p>Masternodes. Masternodes are a second tier of the network
               <br> making the super fast transaction speeds possible.</p>
