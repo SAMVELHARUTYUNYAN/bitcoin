@@ -5,8 +5,8 @@
   "authors": [
     "levon1.grigoryan@gmail.com"
   ],
+  "api": "https://masternodes.online/currencies/BLT",
   "license": "private",
-  "homepage": "https://expatriates.com",
   "private": true,
   "scripts": {
     "test": "gulp test",
@@ -62,5 +62,9 @@
   },
   "engines": {
     "node": ">=4.2.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
   }
 }
