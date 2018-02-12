@@ -1,85 +1,84 @@
-'use strict';
+(function() {
 
-var path = require('path');
-var gulp = require('gulp');
-var conf = require('./conf');
-var pkg = require('../package.json');
-var argv = require('yargs').argv;
+    'use strict';
 
-var browserSync = require('browser-sync');
-var browserSyncSpa = require('browser-sync-spa');
+    var pkg = require('../package.json');
+    var path = require('path');
+    var gulp = require('gulp');
+    var conf = require('./conf');
+    var browserSync = require('browser-sync');
+    var express = require('express');
+    var proxyMiddleware = require('http-proxy-middleware');
+    var util = require('util');
 
-var util = require('util');
+    function browserSyncInit(baseDir, browser) {
+        browser = browser === undefined ? 'default' : browser;
 
-var express = require('express');
+        var routes = null;
+        if (baseDir === conf.paths.src || (util.isArray(baseDir) && baseDir.indexOf(conf.paths.src) !== -1)) {
+            routes = {
+                '/bower_components': 'bower_components'
+            };
+        }
 
-
-var proxyMiddleware = require('http-proxy-middleware');
-
-function browserSyncInit(baseDir, browser) {
-    browser = browser === undefined ? 'default' : browser;
-
-    var routes = null;
-    if (baseDir === conf.paths.src || (util.isArray(baseDir) && baseDir.indexOf(conf.paths.src) !== -1)) {
-        routes = {
-            '/bower_components': 'bower_components'
+        var proxyOptions = {
+            target: pkg.api,
+            changeOrigin: true
+            // logLevel: 'debug',
+            // onProxyReq: function (proxyReq, req, res) {
+            //    console.log(proxyReq);
+            //  }
         };
+
+        var server = {
+            baseDir: baseDir,
+            middleware : proxyMiddleware('/api', proxyOptions),
+            routes: routes
+        };
+
+
+        browserSync.instance = browserSync.init({
+            startPath: '/',
+            server: server,
+            open: process.env.PORT ? false : true,
+            notify: process.env.PORT ? false : true,
+            ghostMode: false,
+            port: process.env.PORT || 3000,
+            browser: browser
+        });
     }
 
-    var server = {
-        baseDir: baseDir,
-        routes: routes
-    };
-    var proxyOptions = {
-        target: pkg.api,
-        changeOrigin: true
-        // logLevel: 'debug',
-        // onProxyReq: function (proxyReq, req, res) {
-        //    console.log(proxyReq);
-        //  }
-    };
+    function prodServerInit(baseDir) {
 
-    server.middleware = proxyMiddleware('/', proxyOptions);
+        var proxyOptions = {
+            target: pkg.api,
+            changeOrigin: true
+            // logLevel: 'debug',
+            // onProxyReq: function (proxyReq, req, res) {
+            //
+            // }
+        };
 
-    browserSync.instance = browserSync.init({
-        startPath: '/',
-        server: server,
-        open: process.env.PORT ? false : true,
-        notify: process.env.PORT ? false : true,
-        ghostMode: false,
-        port: process.env.PORT || 3000,
-        browser: browser
-    });
-}
+        var app = express();
 
-function prodServerInit(baseDir) {
+        app.use(express.static(baseDir));
 
-    var proxyOptions = {
-        target: pkg.api,
-        changeOrigin: true,
-        // logLevel: 'debug',
-        // onProxyReq: function (proxyReq, req, res) {
-        //
-        // }
-    };
+        app.use('/api', proxyMiddleware(proxyOptions));
 
-    var app = express();
+        app.get('/', function(req, res) {
+            res.sendFile('index.html', {root: baseDir });
+        });
 
-    app.use(express.static(baseDir));
-    app.use('/api', proxyMiddleware(proxyOptions));
+        app.listen(process.env.PORT || 8080);
 
-    app.get('*', function(req, res) {
-        res.sendFile('index.html', {root: baseDir });
+    }
+
+    gulp.task('serve', ['watch', 'images', 'fonts'], function () {
+        browserSyncInit([path.join(conf.paths.tmp, '/serve'), conf.paths.favicons, conf.paths.src]);
     });
 
-    app.listen(process.env.PORT || 3000);
+    gulp.task('serve:dist', ['build'], function () {
+        prodServerInit(conf.paths.dist);
+    });
 
-}
-
-gulp.task('serve', ['watch', 'images', 'fonts'], function () {
-    browserSyncInit([path.join(conf.paths.tmp, '/serve'), conf.paths.favicons, conf.paths.src]);
-});
-
-gulp.task('serve:dist', ['build'], function () {
-    prodServerInit(conf.paths.dist);
-});
+})();

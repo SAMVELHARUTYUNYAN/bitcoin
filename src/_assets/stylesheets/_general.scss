@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Depot', sans-serif;
   line-height: 1.45;
-  .menu-open{
+  .btl-nav--open{
     overflow: hidden;
     position: fixed;
   }
@@ -20,6 +20,7 @@ body {
 button, input, optgroup, select, textarea{
   font-family: 'Depot', sans-serif;
 }
-button{
-  line-height: 1;
+
+svg:not(:root) {
+  width: 100%;
 }

@@ -1,0 +1,51 @@
+.btl-loading--overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 20;
+  text-align: center;
+  align-items: center;
+  transition: 0.2s opacity, 0.2s visibility;
+  .loaded & {
+	opacity: 0;
+	visibility: hidden;
+  }
+  .loader-self {
+	display: block;
+	transform: scale(1);
+	transition: 0.2s transform ease-in-out;
+	will-change: transform;
+	.scale-down--svg & {
+	  transform: scale(0);
+	}
+	svg {
+	  display: block;
+	  max-width: 150px;
+	  //polygon {
+	  //  stroke-width: 2px;
+	  //  stroke: #000000;
+	  //}
+	}
+  }
+}
+
+.loaded {
+  .btl-loading--overlay {
+	.btl-logo--lgh {
+	  transform: translateY(0) scale(30);
+	}
+  }
+  .header {
+	.btl-logo--lgh {
+	  transform: translateY(0) scale(1);
+	}
+  }
+}

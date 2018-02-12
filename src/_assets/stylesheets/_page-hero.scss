@@ -1,0 +1,79 @@
+.page-hero {
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+  font-family: "Gotham", sans-serif;
+  padding: 0;
+  .container-fluid > .row:first-child {
+	min-height: 576px;
+	@media(min-width: 992px) {
+	  min-height: 768px;
+	}
+	@media (min-width: 1200px) {
+	  height: 100vh;
+	}
+  }
+  h1 {
+	font-weight: 700;
+  }
+  p {
+	font-size: 16px;
+	font-weight: 300;
+	@media (min-width: 768px) {
+	  font-size: 22px;
+	}
+  }
+}
+
+.page-hero--logo {
+  max-width: 60px;
+  @media (min-width: 768px) {
+	max-width: 135px;
+  }
+}
+
+.btl-roi--row {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  left: 0;
+  &:after {
+	content: '';
+	display: none;
+  }
+  &.fetching {
+	&:after {
+	  content: attr(data-fetching-text);
+	  display: inline;
+	}
+  }
+}
+
+.btl-roi--label {
+  font-size: 30px;
+}
+
+.btl-roi--value {
+  color: #ffffff;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  left: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btl-last--updated {
+  font-size: 14px;
+  color: #eee;
+}
+
+#btl-roi--prc {
+  font-weight: 700;
+}
+
+#btl-roi--days {
+  margin-left: 15px;
+}

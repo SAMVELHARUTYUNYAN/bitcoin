@@ -10,7 +10,7 @@
   margin-left: auto;
 }
 
-@mixin make-flex-row() {
+@mixin make-row() {
   display: flex;
   flex-wrap: wrap;
   margin-right: ($grid-gutter-width / -2);
