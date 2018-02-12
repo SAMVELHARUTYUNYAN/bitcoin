@@ -2,7 +2,387 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c97000af-3903-4f6b-8249-6c1990a31d5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/bolt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/bolt.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Bold/Depot-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Bold/Depot-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Bold/Depot-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Bold/Depot-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Bold/Depot-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Bold/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-BoldItalic/Depot-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-BoldItalic/Depot-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-BoldItalic/Depot-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-BoldItalic/Depot-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-BoldItalic/Depot-BoldItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-BoldItalic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Italic/Depot-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Italic/Depot-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Italic/Depot-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Italic/Depot-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Italic/Depot-Italic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Italic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Light/Depot-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Light/Depot-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Light/Depot-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Light/Depot-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Light/Depot-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Light/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-LightItalic/Depot-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-LightItalic/Depot-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-LightItalic/Depot-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-LightItalic/Depot-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-LightItalic/Depot-LightItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-LightItalic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Medium/Depot-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Medium/Depot-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Medium/Depot-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Medium/Depot-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Medium/Depot-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-MediumItalic/Depot-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-MediumItalic/Depot-MediumItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-MediumItalic/Depot-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-MediumItalic/Depot-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-MediumItalic/Depot-MediumItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Regular/Depot-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Regular/Depot-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Regular/Depot-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Regular/Depot-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Depot-Regular/Depot-Regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Black/Gotham-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Black/Gotham-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Black/Gotham-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Black/Gotham-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Black/Gotham-Black.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Bold/Gotham-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Bold/Gotham-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Bold/Gotham-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Bold/Gotham-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Bold/Gotham-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Book/Gotham-Book.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Book/Gotham-Book.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Book/Gotham-Book.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Book/Gotham-Book.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Book/Gotham-Book.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Light/Gotham-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Light/Gotham-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Light/Gotham-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Light/Gotham-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Light/Gotham-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Medium/Gotham-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Medium/Gotham-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Medium/Gotham-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Medium/Gotham-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Medium/Gotham-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Thin/Gotham-Thin.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Thin/Gotham-Thin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Thin/Gotham-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Thin/Gotham-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/Gotham-Thin/Gotham-Thin.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/font-awesome/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/font-awesome/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/icomoon/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/icomoon/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/icomoon/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/icomoon/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/fonts/icomoon/selection.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/B.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/B.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/download.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/features-03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/features-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/features-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/footer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/hero.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/logo-small.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/network-icon/facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/network-icon/linkedin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/network-icon/twitter.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/network-icon/youtube.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/os-window.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/specific-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/specific-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/specific-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/_assets/images/vector.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/Depot-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/Depot-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/Depot-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/Depot-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/Depot-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Bold/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/Depot-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/Depot-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/Depot-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/Depot-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/Depot-BoldItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-BoldItalic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/Depot-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/Depot-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/Depot-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/Depot-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/Depot-Italic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Italic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/Depot-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/Depot-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/Depot-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/Depot-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/Depot-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Light/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/Depot-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/Depot-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/Depot-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/Depot-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/Depot-LightItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-LightItalic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Medium/Depot-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Medium/Depot-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Medium/Depot-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Medium/Depot-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Medium/Depot-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Medium/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-MediumItalic/Depot-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-MediumItalic/Depot-MediumItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-MediumItalic/Depot-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-MediumItalic/Depot-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-MediumItalic/Depot-MediumItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-MediumItalic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Regular/Depot-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Regular/Depot-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Regular/Depot-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Regular/Depot-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Regular/Depot-Regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Depot-Regular/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Black/Gotham-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Black/Gotham-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Black/Gotham-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Black/Gotham-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Black/Gotham-Black.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Black/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Bold/Gotham-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Bold/Gotham-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Bold/Gotham-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Bold/Gotham-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Bold/Gotham-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Bold/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Book/Gotham-Book.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Book/Gotham-Book.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Book/Gotham-Book.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Book/Gotham-Book.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Book/Gotham-Book.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Book/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Light/Gotham-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Light/Gotham-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Light/Gotham-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Light/Gotham-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Light/Gotham-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Light/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Medium/Gotham-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Medium/Gotham-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Medium/Gotham-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Medium/Gotham-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Medium/Gotham-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Medium/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Thin/Gotham-Thin.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Thin/Gotham-Thin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Thin/Gotham-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Thin/Gotham-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Thin/Gotham-Thin.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/Gotham-Thin/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/font-awesome/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/icomoon/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/icomoon/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/icomoon/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/icomoon/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/icomoon/selection.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/fonts/icomoon/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/B.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/B.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/download.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/features-03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/features-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/features-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/footer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/hero.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/logo-small.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/network-icon/facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/network-icon/linkedin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/network-icon/twitter.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/network-icon/youtube.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/os-window.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/specific-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/specific-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/specific-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/images/vector.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/maps/scripts/app-8b72cdd13d.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/maps/scripts/vendor-943a3bb8dd.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/maps/styles/app-944454dcdc.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/maps/styles/vendor-2e0e6d2944.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/scripts/app-8b72cdd13d.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/scripts/vendor-943a3bb8dd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/styles/app-944454dcdc.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.dist/styles/vendor-2e0e6d2944.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/app/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/Depot-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/Depot-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/Depot-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/Depot-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/Depot-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Bold/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/Depot-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/Depot-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/Depot-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/Depot-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/Depot-BoldItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-BoldItalic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/Depot-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/Depot-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/Depot-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/Depot-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/Depot-Italic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Italic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/Depot-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/Depot-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/Depot-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/Depot-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/Depot-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Light/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/Depot-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/Depot-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/Depot-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/Depot-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/Depot-LightItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-LightItalic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Medium/Depot-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Medium/Depot-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Medium/Depot-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Medium/Depot-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Medium/Depot-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Medium/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-MediumItalic/Depot-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-MediumItalic/Depot-MediumItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-MediumItalic/Depot-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-MediumItalic/Depot-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-MediumItalic/Depot-MediumItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-MediumItalic/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Regular/Depot-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Regular/Depot-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Regular/Depot-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Regular/Depot-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Regular/Depot-Regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Depot-Regular/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Black/Gotham-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Black/Gotham-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Black/Gotham-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Black/Gotham-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Black/Gotham-Black.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Black/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Bold/Gotham-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Bold/Gotham-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Bold/Gotham-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Bold/Gotham-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Bold/Gotham-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Bold/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Book/Gotham-Book.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Book/Gotham-Book.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Book/Gotham-Book.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Book/Gotham-Book.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Book/Gotham-Book.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Book/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Light/Gotham-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Light/Gotham-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Light/Gotham-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Light/Gotham-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Light/Gotham-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Light/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Medium/Gotham-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Medium/Gotham-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Medium/Gotham-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Medium/Gotham-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Medium/Gotham-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Medium/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Thin/Gotham-Thin.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Thin/Gotham-Thin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Thin/Gotham-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Thin/Gotham-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Thin/Gotham-Thin.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/Gotham-Thin/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/font-awesome/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/icomoon/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/icomoon/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/icomoon/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/icomoon/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/icomoon/selection.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/fonts/icomoon/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/B.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/B.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/download.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/features-03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/features-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/features-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/footer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/hero.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/logo-small.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/network-icon/facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/network-icon/linkedin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/network-icon/twitter.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/network-icon/youtube.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/os-window.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/specific-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/specific-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/specific-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/images/vector.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.tmp/serve/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +398,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="145">
+                <state relative-caret-position="1035">
                   <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
                   <folding>
                     <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -44,18 +424,38 @@
           <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulp/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+                <state relative-caret-position="870">
+                  <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -64,17 +464,17 @@
           <file leaf-file-name="_helpers.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_helpers.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="1020">
                   <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
+                <state relative-caret-position="225">
                   <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
                   <folding />
                 </state>
@@ -88,17 +488,17 @@
           <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_fonts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
+                <state relative-caret-position="120">
                   <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_layout.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
+                <state relative-caret-position="90">
                   <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                   <folding>
                     <element signature="e#17#184#0" expanded="false" />
@@ -121,10 +521,23 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="0">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="1620">
                   <caret line="212" column="10" lean-forward="false" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
                   <folding>
                     <element signature="e#126#1259#0" expanded="false" />
@@ -214,9 +627,10 @@
         <option value="$PROJECT_DIR$/src/_assets/stylesheets/_header.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/gulp/server.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/_assets/stylesheets/_layout.scss" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -245,6 +659,7 @@
     <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -266,30 +681,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitcoin-lightning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitcoin-lightning" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -306,6 +699,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,29 +736,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108323000" />
+    <option name="totallyTimeSpent" value="108768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="808" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34739804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56661993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4427754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4427754" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26680973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34739804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -401,7 +805,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_assets/fonts/Depot-BoldItalic/converted-files/font.css" />
     <entry file="file://$PROJECT_DIR$/src/_assets/fonts/Depot-Italic/converted-files/font.css" />
     <entry file="file://$PROJECT_DIR$/src/_assets/fonts/Depot-Light/converted-files/font.css" />
     <entry file="file://$PROJECT_DIR$/src/_assets/fonts/Depot-LightItalic/converted-files/font.css" />
@@ -595,15 +998,9 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -630,7 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
@@ -645,7 +1042,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_helpers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1020">
           <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding />
         </state>
@@ -653,7 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1620">
           <caret line="212" column="10" lean-forward="false" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
           <folding>
             <element signature="e#126#1259#0" expanded="false" />
@@ -673,15 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,21 +1077,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="870">
+          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="1035">
           <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -727,7 +1114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_assets/stylesheets/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="90">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#17#184#0" expanded="false" />
@@ -751,8 +1138,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="225">
           <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
       </provider>

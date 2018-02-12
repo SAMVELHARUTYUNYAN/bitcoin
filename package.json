@@ -1,6 +1,6 @@
 {
-  "name": "Expatriates",
-  "version": "0.0.3",
+  "name": "bitcoin-lightning",
+  "version": "1.0.0beta",
   "description": "",
   "authors": [
     "levon1.grigoryan@gmail.com"
@@ -9,9 +9,9 @@
   "license": "private",
   "private": true,
   "scripts": {
-    "test": "gulp test",
+    "postinstall": "./node_modules/.bin/bower install",
     "start": "gulp serve:dist",
-    "postinstall": "./node_modules/.bin/bower install"
+    "push-git": "git add -A && git commit -m'github commit' && git push"
   },
   "dependencies": {
     "bower": "latest",
