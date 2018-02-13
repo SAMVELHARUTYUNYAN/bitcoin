@@ -47,7 +47,6 @@
             }
         });
     };
-
     setInterval(function () {
         fetchROI('TabStats');
     }, 5000);
@@ -68,6 +67,14 @@
         }
 
     });
+
+    $bodyEl.on('click', '.btl-nav a', function (e) {
+            console.log(e);
+            var $target = $($(this).attr('href'));
+            $('html, body').animate({
+                scrollTop: $target.offset().top
+            }, 1000);
+        })
 
 
 })(jQuery);

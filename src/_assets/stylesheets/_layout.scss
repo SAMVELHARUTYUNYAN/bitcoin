@@ -10,6 +10,7 @@
   }
 }
 
+
 .page-section {
   position: relative;
   padding: 50px 0;
@@ -150,6 +151,44 @@
   @media (min-width: 992px) {
 	text-align: left;
   }
+}
+
+@keyframes blink {
+	0% {
+		opacity: .2;
+	}
+	20% {
+		opacity: 1;
+	}
+	100% {
+		opacity: .2;
+	}
+}
+.saving{
+	position: absolute;
+	top: 30px;
+	margin: 0 !important;
+}
+.saving span {
+	font-size: 35px;
+	display: inline-block;
+	border-radius: 10em;
+	margin-right: 2px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	animation-name: blink;
+	animation-duration: 1.4s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+	animation-delay: .2s;
+}
+
+.saving span:nth-child(3) {
+	animation-delay: .4s;
 }
 
 

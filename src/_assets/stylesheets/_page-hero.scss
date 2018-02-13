@@ -39,20 +39,19 @@
   bottom: 30px;
   width: 100%;
   left: 0;
-  &:after {
-	content: '';
+  .saving {
 	display: none;
   }
   &.fetching {
-	&:after {
-	  content: attr(data-fetching-text);
-	  display: inline;
-	}
+    .saving {
+      display: inline-block; }
   }
 }
 
 .btl-roi--label {
   font-size: 30px;
+  font-weight: 400;
+  padding: 0;
 }
 
 .btl-roi--value {
@@ -75,5 +74,5 @@
 }
 
 #btl-roi--days {
-  margin-left: 15px;
+  margin-left: 10px;
 }

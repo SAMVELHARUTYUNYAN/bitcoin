@@ -58,7 +58,7 @@
 <header class="btl-header">
 	<div class="container-fluid">
 		<div class="row align-items-sm-center justify-content-between">
-			<div class="col-auto d-none d-md-block">
+			<div class="col-auto d-none d-lg-block">
 				<div class="btl-logo">
 					<svg id="btlLogo" data-name="Bitcoin Lightning" xmlns="http://www.w3.org/2000/svg"
 						 viewBox="0 0 408.2 134.78">
@@ -127,16 +127,16 @@
 					</svg>
 				</div>
 			</div>
-			<div class="col-auto d-md-none">
+			<div class="col-auto d-lg-none">
 				<img class="btl-logo--small" src="/images/logo-small.svg" alt="Bitcoin Lightning">
 			</div>
 			<div class="col-auto ml-auto d-none d-md-block">
 				<nav class="btl-nav">
 					<ul class="m-0 p-0">
-						<li><a href="#">home</a></li>
-						<li><a href="#">about us</a></li>
-						<li><a href="#">features</a></li>
-						<li><a href="#">contact us</a></li>
+						<li><a href="#home">home</a></li>
+						<li><a href="#about">about us</a></li>
+						<li><a href="#features">features</a></li>
+						<li><a href="#contact">contact us</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -178,7 +178,7 @@
 
 <!--MAIN start-->
 <main>
-	<section class="page-section page-hero">
+	<section  id="home" class="page-section page-hero">
 		<div class="container-fluid">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-md-10">
@@ -203,8 +203,7 @@
 
 				</div>
 			</div>
-			<div class="row btl-roi--row align-items-center justify-content-center"
-				 data-fetching-text="Fetching annual ROI...">
+			<div class="row btl-roi--row align-items-center justify-content-center">
 				<div class="col-sm-12 text-center">
 					<div class="btl-roi--values">
 						<div class="row justify-content-center align-items-center">
@@ -213,20 +212,21 @@
 								<b>ROI</b>
 							</span>
 							</div>
-							<div class="col-auto">
+							<div>
 								<span id="btl-roi--prc"></span>
 
 							</div>
-							<div class="col-auto">
+							<div>
 								<span id="btl-roi--days"></span>
 							</div>
+							<p class="saving"><span></span><span></span><span></span></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="page-section page-features bg-white">
+	<section id="features" class="page-section page-features bg-white">
 		<div class="container-fluid">
 			<div class="page-features--header">
 				<div class="row justify-content-center">
@@ -412,7 +412,7 @@
 			<div class="image"></div>
 		</div>
 	</section>
-	<section class="page-section page-about bg-white ff-depot pb-0">
+	<section id="about" class="page-section page-about bg-white ff-depot pb-0">
 		<div class="container-fluid">
 			<div class="row justify-content-between">
 				<div class="col-12 col-md-6 align-self-center">
@@ -430,7 +430,7 @@
 <!--MAIN ends-->
 
 
-<footer class="btl-footer">
+<footer id="contact" class="btl-footer">
 	<div class="btl-footer--top">
 		<div class="container-fluid">
 			<div class="row justify-content-around">
