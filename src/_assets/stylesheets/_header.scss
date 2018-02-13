@@ -94,13 +94,33 @@
   }
   .btl-logo--lgh {
 	transform: translateY(-100%) scale(0.5);
-	transition: 0.3s all;
+	transition: 0.3s 0.5s transform;
 	.loaded & {
 	  transform: translateY(0) scale(1);
 	}
   }
   .btl-logo--wh {
 	fill: #fff;
+  }
+  .btl-logo--chars {
+	.btl-logo--wh:not(.revealed) {
+	  opacity: 0;
+	  transform-origin: center;
+	  transition: 0.2s transform;
+	  transform: translate(0, -5px);
+	}
+  }
+  .btl-logo--wh {
+	transition: 0.15s opacity ease-in;
+	will-change: opacity;
+  }
+  .btl-logo--round {
+	transform: scale(0);
+	transition: 0.3s transform ease-in-out;
+	transform-origin: center;
+	.loaded & {
+	  transform: scale(1);
+	}
   }
 }
 
@@ -146,6 +166,9 @@
 	font-weight: 500;
 	color: #fff;
 	text-decoration: none;
+	&:hover, &:focus {
+	  color: rgba(#fff, 0.5);
+	}
   }
 }
 

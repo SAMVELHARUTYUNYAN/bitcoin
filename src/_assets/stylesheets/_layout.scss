@@ -72,49 +72,49 @@
 	  text-align: left;
 	}
   }
-  .page-specifications--header {
-	p {
-	  font-size: 16px;
-	}
-	@media (min-width: 992px) {
-	  padding-top: 50px;
-	}
-	.specification-header--top {
-	  position: relative;
-	  padding-bottom: 30px;
-	  &:after {
-		position: absolute;
-		content: '';
-		width: 53px;
-		height: 2px;
-		background-color: #00a8dc;
-		bottom: 0;
-		left: 50%;
-		top: 75%;
-		transform: translate(-50%, -75%);
-	  }
-	}
-	
+}
+.page-specifications--header {
+  p {
+	font-size: 16px;
   }
-  .page-specifications--body {
-	padding: 15px 0;
-	@media (min-width: 1200px) {
-	  padding: 15px 100px;
+  @media (min-width: 992px) {
+	padding-top: 50px;
+  }
+  .specification-header--top {
+	position: relative;
+	padding-bottom: 50px;
+	&:after {
+	  position: absolute;
+	  content: '';
+	  width: 53px;
+	  height: 2px;
+	  background-color: #00a8dc;
+	  bottom: 0;
+	  left: 50%;
+	  top: 75%;
+	  transform: translate(-50%, -75%);
 	}
   }
-  .specifications-block {
-	padding: 15px 0;
-	max-width: 325px;
-	width: 100%;
-	@media (max-width: 767px) {
-	  margin-left: auto;
-	  margin-right: auto;
-	  max-width: 400px;
-	}
+  
+}
+.page-specifications--body {
+  padding: 15px 0;
+  @media (min-width: 1200px) {
+	padding: 15px 100px;
   }
-  .specifications-block--body {
-	padding: 0 35px;
+}
+.specifications-block {
+  padding: 15px 0;
+  max-width: 325px;
+  width: 100%;
+  @media (max-width: 767px) {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
   }
+}
+.specifications-block--body {
+  padding: 0 35px;
 }
 
 .bg-blue--gradient {
@@ -164,33 +164,6 @@
 		opacity: .2;
 	}
 }
-.saving{
-	position: absolute;
-	top: 30px;
-	margin: 0 !important;
-}
-.saving span {
-	font-size: 35px;
-	display: inline-block;
-	border-radius: 10em;
-	margin-right: 2px;
-	width: 5px;
-	height: 5px;
-	background-color: #fff;
-	animation-name: blink;
-	animation-duration: 1.4s;
-	animation-iteration-count: infinite;
-	animation-fill-mode: both;
-}
-
-.saving span:nth-child(2) {
-	animation-delay: .2s;
-}
-
-.saving span:nth-child(3) {
-	animation-delay: .4s;
-}
-
 
 
 

@@ -14,6 +14,7 @@
   text-align: center;
   align-items: center;
   transition: 0.2s opacity, 0.2s visibility;
+  -webkit-backface-visibility: hidden;
   .loaded & {
 	opacity: 0;
 	visibility: hidden;
@@ -28,12 +29,26 @@
 	}
 	svg {
 	  display: block;
-	  max-width: 150px;
+	  max-width: 50%;
+	  margin: auto;
+	  width: 270px;
 	  //polygon {
 	  //  stroke-width: 2px;
 	  //  stroke: #000000;
 	  //}
 	}
+  }
+  .btl-logo--lgh {
+	fill: url(#radial-gradient);
+	transform: scale(0.9);
+	transform-origin: 50% 50%;
+	transition: 0.2s transform;
+	will-change: transform;
+  }
+  .btl-logo--round {
+	transform-origin: center;
+	/* transform: scale(0.5); */
+	transition: 0.3s transform;
   }
 }
 

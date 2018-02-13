@@ -2,16 +2,18 @@
 
 
     var $bodyEl = $('body'),
-        $roiLiveEl = $('.btl-roi--row'),
+        $roiLiveEl = $('.btl-roi--values'),
         $roiValueEl = $('.btl-roi--value'),
         $roiPrc = $('#btl-roi--prc'),
         $roiDays = $('#btl-roi--days');
 
 
-    var fetchROI = function (parentElString) {
+    var fetchROI = function (parentElString, callback) {
         var htmlRes,
             percentage,
             days;
+
+        $roiLiveEl.addClass('fetching');
 
         $.ajax({
             url: '/api',
@@ -23,16 +25,14 @@
                 var $roiEl = $statsEl.find('td:contains("ROI")');
                 var roiStrArr = $roiEl.next().text().split(' ');
 
-                console.log(roiStrArr);
-
                 for (var i = 0; i < roiStrArr.length; i++) {
                     if (roiStrArr[i].includes('%')) {
                         percentage = roiStrArr[i];
                         $roiPrc.text(percentage);
                     }
-                    if (roiStrArr[i].includes('days') > 0) {
+                    if (roiStrArr[i].includes('days')) {
                         days = roiStrArr[i - 1];
-                        $roiDays.text(' / ' + days + ' days');
+                        $roiDays.text(days + ' days');
                     }
                 }
 
@@ -40,41 +40,61 @@
             error: function (err) {
                 console.log(err);
 
-                $roiValueEl.html('<p>' + err + '</p>');
+                $roiValueEl.text('?');
+                $roiLiveEl.addClass('fetch-error');
             },
             complete: function () {
-                $roiLiveEl.removeClass('fetching');
+
+                setTimeout(function () {
+                    $roiLiveEl.removeClass('fetching');
+                    $roiLiveEl.removeClass('fetchError');
+                }, 500)
+
             }
         });
+
+        if (!!callback) {
+            callback();
+        }
     };
-    setInterval(function () {
-        fetchROI('TabStats');
-    }, 5000);
+
+    fetchROI('TabStats', function () {
+        setInterval(function() {
+            fetchROI('TabStats');
+        }, 10000);
+    });
 
     $(window).on('load', function () {
         $bodyEl.addClass('scale-down--svg');
+        $bodyEl.addClass('loaded').removeClass('scale-down--svg');
         setTimeout(function () {
-            $bodyEl.addClass('loaded').removeClass('scale-down--svg');
-            $roiLiveEl.addClass('fetching');
-        }, 1000);
-    });
-
-    $bodyEl.on('click', '.navbar-toggler', function (e) {
-        if (!$bodyEl.hasClass('btl-nav--open')) {
-            $bodyEl.addClass('btl-nav--open');
-        } else {
-            $bodyEl.removeClass('btl-nav--open');
-        }
+            $('.btl-logo--chars .btl-logo--wh').each(function (i, el) {
+                setTimeout(function () {
+                    $(el).addClass('revealed');
+                }, i + (i-1) * 20 )
+            });
+        }, 500);
 
     });
 
-    $bodyEl.on('click', '.btl-nav a', function (e) {
+    $bodyEl
+        .on('click', '.navbar-toggler', function (e) {
+            if (!$bodyEl.hasClass('btl-nav--open')) {
+                $bodyEl.addClass('btl-nav--open');
+            } else {
+                $bodyEl.removeClass('btl-nav--open');
+            }
+
+        })
+        .on('click', '.btl-nav a', function (e) {
             console.log(e);
             var $target = $($(this).attr('href'));
             $('html, body').animate({
                 scrollTop: $target.offset().top
-            }, 1000);
+            }, 500);
         })
+
+
 
 
 })(jQuery);

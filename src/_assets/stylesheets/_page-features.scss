@@ -2,6 +2,7 @@
 .page-features {
   position: relative;
 }
+
 .page-features--header {
   color: #464646;
   h2 {
@@ -19,6 +20,7 @@
 	}
   }
 }
+
 .page-features--body {
   position: relative;
   padding: 0;
@@ -42,6 +44,7 @@
   }
   
 }
+
 .page-features--footer {
   margin-top: 30px;
   position: relative;
@@ -53,14 +56,19 @@
 	margin-bottom: 60px;
   }
 }
+
 .page-features--block {
   max-width: 350px;
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 30px;
   @media (min-width: 768px) {
 	margin-top: 0;
+	margin-bottom: 50px;
+	
   }
 }
+
 .features-block--wrapper {
   position: relative;
   background-color: #FFF;
@@ -73,11 +81,13 @@
 	width: 255px;
   }
 }
+
 .features-block--heading {
   font-size: 16px;
   color: #213447;
   
 }
+
 .features-block--body {
   padding-top: 25px;
   font-family: "Gotham", sans-serif;
