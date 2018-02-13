@@ -65,11 +65,12 @@
 
         app.use('/api', proxyMiddleware(proxyOptions));
 
-        app.get('/', function(req, res) {
+        app.get('/', function(req, res, next) {
             res.sendFile('index.html', {root: baseDir });
+            next();
         });
 
-        app.listen(process.env.PORT || 80);
+        app.listen(process.env.PORT || 80, '127.0.0.1:80');
 
     }
 

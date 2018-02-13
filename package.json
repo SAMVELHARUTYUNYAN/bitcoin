@@ -2,7 +2,7 @@
   "name": "bitcoin-lightning",
   "version": "0.0.1",
   "description": "",
-  "main": "./gulp/server.js",
+  "main": "index.js",
   "authors": [
     "levon1.grigoryan@gmail.com"
   ],
@@ -11,7 +11,6 @@
   "private": true,
   "scripts": {
     "postinstall": "./node_modules/.bin/bower install",
-    "start": "gulp serve:dist",
     "push-git": "git add -A && git commit -m'github commit' && git push"
   },
   "dependencies": {
