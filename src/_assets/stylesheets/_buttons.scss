@@ -7,7 +7,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: 500;
-  transition: 0.3s;
+  transition: 0.2s all;
   &:active, &:focus, &:visited {
 	outline: none;
   }
@@ -36,27 +36,26 @@ button {
 .button-download {
   position: relative;
   display: block;
-  max-width: 290px;
+  max-width: 280px;
   background-color: #FFF;
   color: #0769d7;
   font-size: 14px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  padding: 0 25px 0 65px;
-  line-height: 46px;
-  height: 44px;
+  padding: 11px 25px 10px 55px;
   font-weight: 500;
   text-transform: uppercase;
   i {
 	position: absolute;
-	left: 20px;
-	font-size: 28px;
+	left: 15px;
+	font-size: 24px;
 	top: 50%;
 	transform: translate(0, -50%);
 	line-height: 1;
 	@media (min-width: 576px) {
 	  font-size: 30px;
+	  left: 20px;
 	}
   }
   span {
@@ -65,7 +64,6 @@ button {
   @media (min-width: 576px) {
 	font-size: 18px;
 	max-width: 340px;
-	line-height: 52px;
-	height: 50px;
+	padding: 14px 25px 13px 65px;
   }
 }
