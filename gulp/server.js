@@ -22,7 +22,7 @@
         }
 
         var proxyOptions = {
-            target: pkg.api,
+            target: 'https://masternodes.online/currencies/BLT',
             changeOrigin: true
             // logLevel: 'debug',
             // onProxyReq: function (proxyReq, req, res) {
@@ -51,7 +51,7 @@
     function prodServerInit(baseDir) {
 
         var proxyOptions = {
-            target: pkg.api,
+            target: 'https://masternodes.online/currencies/BLT',
             changeOrigin: true
             // logLevel: 'debug',
             // onProxyReq: function (proxyReq, req, res) {
