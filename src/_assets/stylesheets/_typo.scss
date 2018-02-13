@@ -5,9 +5,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
+  @media (min-width: 768px) {
+    font-size: 35px;
+  }
+  @media (min-width: 992px) {
+    font-size: 45px;
+  }
 }
 
 .ff-depot {

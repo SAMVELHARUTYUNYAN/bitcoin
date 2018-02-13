@@ -53,7 +53,10 @@
 	height: 1px;
 	background-color: #ccc;
 	display: block;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
+	@media(min-width: 768px) {
+	  margin-bottom: 60px;
+	}
   }
 }
 
@@ -62,6 +65,9 @@
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+  img {
+	max-width: 100%;
+  }
   @media (min-width: 768px) {
 	margin-top: 0;
 	margin-bottom: 50px;
@@ -73,8 +79,7 @@
   position: relative;
   background-color: #FFF;
   z-index: 5;
-  width: 220px;
-  height: 170px;
+  max-width: 220px;
   margin-right: auto;
   margin-left: auto;
   @media (min-width: 992px) {

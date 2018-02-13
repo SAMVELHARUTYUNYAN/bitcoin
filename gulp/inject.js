@@ -11,46 +11,46 @@ var _ = require('lodash');
 
 var browserSync = require('browser-sync');
 
-gulp.task('inject-reload', ['inject'], function() {
-  browserSync.reload();
+gulp.task('inject-reload', ['inject'], function () {
+    browserSync.reload();
 });
 
-function injectTask () {
-  var injectStyles = gulp.src([
-    path.join(conf.paths.tmp, '/serve/app/**/*.css'),
-    path.join('!' + conf.paths.tmp, '/serve/app/vendor.css')
-  ], {read: false});
+function injectTask() {
+    var injectStyles = gulp.src([
+        path.join(conf.paths.tmp, '/serve/css/**/*.css'),
+        path.join('!' + conf.paths.tmp, '/serve/css/vendor.css')
+    ], {read: false});
 
-  var pluginScripts = gulp.src([
-    path.join(conf.paths.src, '/_assets/plugins/**/*.js')
-  ], {read: false});
+    var pluginScripts = gulp.src([
+        path.join(conf.paths.src, '/_assets/plugins/**/*.js')
+    ], {read: false});
 
-  var pluginScriptsOptions = {
-    ignorePath: [conf.paths.src],
-    addRootSlash: false,
-    starttag: '<!-- inject:plugin:{{ext}} -->'
-  };
+    var pluginScriptsOptions = {
+        ignorePath: [conf.paths.src],
+        addRootSlash: false,
+        starttag: '<!-- inject:plugin:{{ext}} -->'
+    };
 
-  var injectScripts = gulp.src([
-      path.join(conf.paths.src, '/**/*.js'),
-      path.join(conf.paths.tmp, '/serve/generated/*.js'),
-      path.join('!' + conf.paths.src, '/**/*.spec.js'),
-      path.join('!' + conf.paths.src, '/**/*.mock.js'),
-      path.join('!' + conf.paths.src, '/_assets/plugins/**/*.js')
+    var injectScripts = gulp.src([
+        path.join(conf.paths.src, '/**/*.js'),
+        path.join(conf.paths.tmp, '/serve/generated/*.js'),
+        path.join('!' + conf.paths.src, '/**/*.spec.js'),
+        path.join('!' + conf.paths.src, '/**/*.mock.js'),
+        path.join('!' + conf.paths.src, '/_assets/plugins/**/*.js')
     ]);
 
 
-  var injectOptions = {
-    ignorePath: [conf.paths.src, path.join(conf.paths.tmp, '/serve')],
-    addRootSlash: false
-  };
+    var injectOptions = {
+        ignorePath: [conf.paths.src, path.join(conf.paths.tmp, '/serve')],
+        addRootSlash: false
+    };
 
-  return gulp.src(path.join(conf.paths.src, '/*.html'))
-    .pipe($.inject(injectStyles, injectOptions))
-    .pipe($.inject(pluginScripts, pluginScriptsOptions))
-    .pipe($.inject(injectScripts, injectOptions))
-    .pipe(wiredep(_.extend({}, conf.wiredep)))
-    .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve')));
+    return gulp.src(path.join(conf.paths.src, '/*.html'))
+        .pipe($.inject(injectStyles, injectOptions))
+        .pipe($.inject(pluginScripts, pluginScriptsOptions))
+        .pipe($.inject(injectScripts, injectOptions))
+        .pipe(wiredep(_.extend({}, conf.wiredep)))
+        .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve')));
 }
 
 gulp.task('inject', ['scripts', 'styles'], injectTask);

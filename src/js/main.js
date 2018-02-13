@@ -32,6 +32,7 @@
                         $roiPrc.text(percentage);
                     }
                     if (roiStrArr[i].indexOf('days') > -1) {
+
                         days = roiStrArr[i - 1];
                         $roiDays.text(days + ' days');
                     }

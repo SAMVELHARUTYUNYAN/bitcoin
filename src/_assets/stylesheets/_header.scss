@@ -15,6 +15,7 @@
 	background-color: transparent;
 	top: 10px;
 	z-index: 100;
+	padding: 0;
 	.line {
 	  display: block;
 	  height: 2px;
@@ -25,25 +26,22 @@
 		margin-bottom: 0;
 	  }
 	  .blt-nav--open & {
-		@media (max-width: 767px) {
-		  height: 2px;
-		  border-radius: 10px;
-		  margin: 0 auto;
-		  background-color: #fff;
-		  transform-origin: 19.5px;
-		  -webkit-transform-origin: 19.5px;
-		  &:nth-child(1) {
-			transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-		  }
-		  &:nth-child(2) {
-			visibility: hidden;
-			opacity: 0;
-		  }
-		  &:nth-child(3) {
-			transform: rotate(45deg);
-			-webkit-transform: rotate(45deg);
-		  }
+		height: 2px;
+		border-radius: 10px;
+		margin: 0 auto;
+		background-color: #fff;
+		transform-origin: 19.5px;
+		&:nth-child(1) {
+		  transform: rotate(-45deg);
+		  -webkit-transform: rotate(-45deg);
+		}
+		&:nth-child(2) {
+		  visibility: hidden;
+		  opacity: 0;
+		}
+		&:nth-child(3) {
+		  transform: rotate(45deg);
+		  -webkit-transform: rotate(45deg);
 		}
 	  }
 	}
@@ -104,11 +102,11 @@
 	will-change: opacity;
   }
   .blt-logo--round {
-	transform: scale(0);
-	transition: 0.3s transform ease-in-out;
+	transform: scale(0) rotate(720deg);
+	transition: 0.5s transform ease-in-out;
 	transform-origin: center;
 	.loaded & {
-	  transform: scale(1);
+	  transform: scale(1) rotate(0);
 	}
   }
   @media(min-width: 768px) {
@@ -158,21 +156,19 @@
 .blt-nav--mobile {
   position: fixed;
   top: 59px;
-  left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
   z-index: 10;
-  padding: 0 20px;
   transition: 0.2s all;
-  transform: translate(-100%, 0);
+  left: -100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   border: none;
   .blt-nav--open & {
-	transform: translate(0, 0);
+	left: 0;
   }
   .mobile-btn {
 	padding: 25px 0;
@@ -186,12 +182,14 @@
 	  font-size: 36px;
 	  font-weight: 700;
 	  transform: scale(1);
+	  -webkit-transform: scale(1);
 	  transition: 0.3s all;
 	  display: block;
 	  letter-spacing: 1px;
 	  &:hover {
 		color: rgba(255, 255, 255, 0.5);
 		transform: scale(0.97);
+		-webkit-transform: scale(0.97);
 	  }
 	}
   }
@@ -214,3 +212,6 @@
 }
 
 
+body:not(.loaded) .page-section {
+  padding-right: 17px;
+}

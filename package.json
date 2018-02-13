@@ -7,11 +7,11 @@
     "levon1.grigoryan@gmail.com"
   ],
   "api": "https://masternodes.online/currencies/BLT",
-  "license": "private",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "postinstall": "./node_modules/.bin/bower install",
-    "start": "gulp clean && gulp serve:dist",
+    "start": "gulp serve:dist",
     "push-git": "git add -A && git commit -m'github commit' && git push"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "gulp-inject": "^4.1.0",
     "gulp-load-plugins": "^1.2.4",
     "gulp-ng-annotate": "^2.0.0",
+    "gulp-purifycss": "^0.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-rev": "~6.0.1",

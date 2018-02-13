@@ -83,6 +83,7 @@
   .specification-header--top {
 	position: relative;
 	padding-bottom: 50px;
+	-webkit-backface-visibility: hidden;
 	&:after {
 	  position: absolute;
 	  content: '';
@@ -91,7 +92,7 @@
 	  background-color: #00a8dc;
 	  bottom: 0;
 	  left: 50%;
-	  top: 75%;
+	  top: 70%;
 	  transform: translate(-50%, -75%);
 	}
   }
