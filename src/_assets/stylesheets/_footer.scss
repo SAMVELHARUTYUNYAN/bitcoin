@@ -1,4 +1,4 @@
-.btl-footer {
+.blt-footer {
   background-image: url("../images/footer.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -55,14 +55,14 @@
 
 }
 
-.btl-footer--top {
+.blt-footer--top {
   padding: 10px 0;
   @media (min-width: 992px) {
     padding-top: 115px;
     padding-bottom: 70px;
   }
 }
-.btl-footer--bottom {
+.blt-footer--bottom {
   color: #9da0b1;
   font-size: 14px;
   text-transform: uppercase;
@@ -70,7 +70,7 @@
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-.btl-footer--links {
+.blt-footer--links {
   color:#737780;
   li + li {
     margin-top: 18px;

@@ -1,4 +1,4 @@
-.btl-loading--overlay {
+.blt-loading--overlay {
   position: fixed;
   left: 0;
   top: 0;
@@ -9,58 +9,35 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fff;
   z-index: 20;
   text-align: center;
   align-items: center;
-  transition: 0.2s opacity, 0.2s visibility;
-  -webkit-backface-visibility: hidden;
-  .loaded & {
-	opacity: 0;
-	visibility: hidden;
-  }
-  .loader-self {
+  .blt-loading--spinner {
 	display: block;
+	margin: -35px auto 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: 0.5rem solid #516d9c;
+	border-top-color: #ffffff;
+	animation: spin 1s infinite linear;
+	transition: 0.15s transform;
+	will-change: transform;
 	transform: scale(1);
-	transition: 0.2s transform ease-in-out;
-	will-change: transform;
-	.scale-down--svg & {
-	  transform: scale(0);
-	}
-	svg {
-	  display: block;
-	  max-width: 50%;
-	  margin: auto;
-	  width: 270px;
-	  //polygon {
-	  //  stroke-width: 2px;
-	  //  stroke: #000000;
-	  //}
-	}
-  }
-  .btl-logo--lgh {
-	fill: url(#radial-gradient);
-	transform: scale(0.9);
-	transform-origin: 50% 50%;
-	transition: 0.2s transform;
-	will-change: transform;
-  }
-  .btl-logo--round {
-	transform-origin: center;
-	/* transform: scale(0.5); */
-	transition: 0.3s transform;
   }
 }
 
-.loaded {
-  .btl-loading--overlay {
-	.btl-logo--lgh {
-	  transform: translateY(0) scale(30);
-	}
+@keyframes spin {
+  0% {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
   }
-  .header {
-	.btl-logo--lgh {
-	  transform: translateY(0) scale(1);
-	}
+  100% {
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
   }
 }

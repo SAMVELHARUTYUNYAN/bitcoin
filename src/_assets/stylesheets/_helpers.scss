@@ -75,14 +75,16 @@
 	display: block !important;
   }
 }
+
 .d-lg-block {
   @media(min-width: 992px) {
-    display: block !important;
+	display: block !important;
   }
 }
+
 .d-lg-none {
   @media(min-width: 992px) {
-    display: none !important;
+	display: none !important;
   }
 }
 

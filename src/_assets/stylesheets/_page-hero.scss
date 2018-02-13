@@ -35,12 +35,35 @@
   }
 }
 
-.btl-roi--row {
+.page-hero--content {
+  transition: 0.3s 1s all;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(.9);
+  will-change: visibility, transform;
+  .loaded & {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+.blt-roi--row {
   position: absolute;
   bottom: 30px;
   width: 100%;
   left: 0;
   margin: 0;
+  transition: 0.3s 1.2s all;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 100%) scale(.9);
+  will-change: visibility, transform;
+  .loaded & {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0) scale(.9);
+  }
   .saving {
 	display: none;
   }
@@ -50,7 +73,7 @@
   }
 }
 
-.btl-roi--values {
+.blt-roi--values {
   width: 240px;
   margin: auto;
   padding: 10px 15px;
@@ -61,7 +84,7 @@
   position: relative;
 }
 
-.btl-live--dot {
+.blt-live--dot {
   width: 10px;
   height: 10px;
   display: block;
@@ -75,19 +98,19 @@
   }
 }
 
-.btl-roi--label {
+.blt-roi--label {
   font-size: 20px;
   font-weight: 400;
   padding: 0;
 }
 
-.btl-roi--value {
+.blt-roi--value {
   .fetching & {
     display: none;
   }
 }
 
-.btl-fetch--dots{
+.blt-fetch--dots{
   position: absolute;
   top: 50%;
   margin: 0 !important;
@@ -100,10 +123,10 @@
   }
 }
 
-.btl-fetch--dots span {
+.blt-fetch--dots span {
   font-size: 35px;
   display: inline-block;
-  border-radius: 10em;
+  border-radius: 50%;
   margin-right: 2px;
   width: 5px;
   height: 5px;
@@ -114,19 +137,19 @@
   animation-fill-mode: both;
 }
 
-.btl-fetch--dots span:nth-child(2) {
+.blt-fetch--dots span:nth-child(2) {
   animation-delay: .2s;
 }
 
-.btl-fetch--dots span:nth-child(3) {
+.blt-fetch--dots span:nth-child(3) {
   animation-delay: .4s;
 }
 
-.btl-last--updated {
+.blt-last--updated {
   font-size: 14px;
   color: #eee;
 }
-.btl-roi--date {
+.blt-roi--date {
   font-size: 12px;
   line-height: 1.5;
   color: #ccc;
@@ -135,10 +158,10 @@
 }
 
 
-#btl-roi--prc {
+#blt-roi--prc {
   font-weight: 700;
 }
 
-#btl-roi--days {
+#blt-roi--days {
   margin-left: 10px;
 }

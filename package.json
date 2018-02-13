@@ -11,7 +11,7 @@
   "private": true,
   "scripts": {
     "postinstall": "./node_modules/.bin/bower install",
-    "start": "gulp serve:dist",
+    "start": "gulp clean && gulp serve:dist",
     "push-git": "git add -A && git commit -m'github commit' && git push"
   },
   "dependencies": {

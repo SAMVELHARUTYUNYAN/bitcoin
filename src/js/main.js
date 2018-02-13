@@ -2,10 +2,11 @@
 
 
     var $bodyEl = $('body'),
-        $roiLiveEl = $('.btl-roi--values'),
-        $roiValueEl = $('.btl-roi--value'),
-        $roiPrc = $('#btl-roi--prc'),
-        $roiDays = $('#btl-roi--days');
+        $loadingOverlay = $('.blt-loading--overlay'),
+        $roiLiveEl = $('.blt-roi--values'),
+        $roiValueEl = $('.blt-roi--value'),
+        $roiPrc = $('#blt-roi--prc'),
+        $roiDays = $('#blt-roi--days');
 
 
     var fetchROI = function (parentElString, callback) {
@@ -26,11 +27,11 @@
                 var roiStrArr = $roiEl.next().text().split(' ');
 
                 for (var i = 0; i < roiStrArr.length; i++) {
-                    if (roiStrArr[i].includes('%')) {
+                    if (roiStrArr[i].indexOf('%') > -1) {
                         percentage = roiStrArr[i];
                         $roiPrc.text(percentage);
                     }
-                    if (roiStrArr[i].includes('days')) {
+                    if (roiStrArr[i].indexOf('days') > -1) {
                         days = roiStrArr[i - 1];
                         $roiDays.text(days + ' days');
                     }
@@ -65,10 +66,16 @@
     });
 
     $(window).on('load', function () {
-        $bodyEl.addClass('scale-down--svg');
-        $bodyEl.addClass('loaded').removeClass('scale-down--svg');
+
+        $loadingOverlay.fadeOut(300, function() {
+            $bodyEl.addClass('scale-down--svg');
+            $bodyEl.addClass('loaded').removeClass('scale-down--svg');
+        });
+
+
+
         setTimeout(function () {
-            $('.btl-logo--chars .btl-logo--wh').each(function (i, el) {
+            $('.blt-logo--chars .blt-logo--wh').each(function (i, el) {
                 setTimeout(function () {
                     $(el).addClass('revealed');
                 }, i + (i-1) * 20 )
@@ -79,14 +86,14 @@
 
     $bodyEl
         .on('click', '.navbar-toggler', function (e) {
-            if (!$bodyEl.hasClass('btl-nav--open')) {
-                $bodyEl.addClass('btl-nav--open');
+            if (!$bodyEl.hasClass('blt-nav--open')) {
+                $bodyEl.addClass('blt-nav--open');
             } else {
-                $bodyEl.removeClass('btl-nav--open');
+                $bodyEl.removeClass('blt-nav--open');
             }
 
         })
-        .on('click', '.btl-nav a', function (e) {
+        .on('click', '.blt-nav a', function (e) {
             console.log(e);
             var $target = $($(this).attr('href'));
             $('html, body').animate({

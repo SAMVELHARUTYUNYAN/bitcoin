@@ -1,9 +1,35 @@
+.blt-logo {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 700;
+  z-index: 1000;
+  max-width: 210px;
+  position: relative;
+  @media (min-width: 1200px) {
+	max-width: 400px;
+  }
+}
+
 .btl-logo--lgh {
-  fill: url(#radial-gradient);
+  polygon {
+	fill: url(#radial-gradient);
+  }
 }
 
 .btl-logo--round {
-  path {
-	fill: #fff;
-  }
+  fill: #fff;
+}
+
+
+.blt-logo--lightning {
+  position: absolute;
+  width: 100%;
+
+}
+.blt-logo--whites {
+  position: relative;
+  z-index: 1;
+}
+
+.blt-logo--small {
+  width: 44px;
 }

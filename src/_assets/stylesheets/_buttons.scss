@@ -54,7 +54,7 @@ button {
 	transform: translate(0, -50%);
 	line-height: 1;
 	@media (min-width: 576px) {
-	  font-size: 30px;
+	  font-size: 26px;
 	  left: 20px;
 	}
   }
@@ -63,7 +63,7 @@ button {
   }
   @media (min-width: 576px) {
 	font-size: 18px;
-	max-width: 340px;
-	padding: 14px 25px 13px 65px;
+	max-width: 345px;
+	padding: 14px 25px 13px 62.5px;
   }
 }
