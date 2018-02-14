@@ -21,22 +21,8 @@ function injectTask() {
         path.join('!' + conf.paths.tmp, '/serve/css/vendor.css')
     ], {read: false});
 
-    var pluginScripts = gulp.src([
-        path.join(conf.paths.src, '/_assets/plugins/**/*.js')
-    ], {read: false});
-
-    var pluginScriptsOptions = {
-        ignorePath: [conf.paths.src],
-        addRootSlash: false,
-        starttag: '<!-- inject:plugin:{{ext}} -->'
-    };
-
     var injectScripts = gulp.src([
         path.join(conf.paths.src, '/**/*.js'),
-        path.join(conf.paths.tmp, '/serve/generated/*.js'),
-        path.join('!' + conf.paths.src, '/**/*.spec.js'),
-        path.join('!' + conf.paths.src, '/**/*.mock.js'),
-        path.join('!' + conf.paths.src, '/_assets/plugins/**/*.js')
     ]);
 
 
@@ -47,7 +33,6 @@ function injectTask() {
 
     return gulp.src(path.join(conf.paths.src, '/*.html'))
         .pipe($.inject(injectStyles, injectOptions))
-        .pipe($.inject(pluginScripts, pluginScriptsOptions))
         .pipe($.inject(injectScripts, injectOptions))
         .pipe(wiredep(_.extend({}, conf.wiredep)))
         .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve')));

@@ -22,7 +22,6 @@
 
     app.get('/', function(req, res, next) {
         res.sendFile('index.html', {root: conf.paths.dist });
-        next();
     });
 
     app.listen(8080);
