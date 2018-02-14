@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c97000af-3903-4f6b-8249-6c1990a31d5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/stylesheets/_layout.scss" afterPath="$PROJECT_DIR$/src/_assets/stylesheets/_layout.scss" />
-    </list>
+    <list default="true" id="c97000af-3903-4f6b-8249-6c1990a31d5f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -495,12 +491,12 @@
       <workItem from="1518136443991" duration="31550000" />
       <workItem from="1518382769457" duration="846000" />
       <workItem from="1518393012721" duration="10016000" />
-      <workItem from="1518620980029" duration="22000" />
+      <workItem from="1518620980029" duration="681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189468000" />
+    <option name="totallyTimeSpent" value="190127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="811" extended-state="6" />
