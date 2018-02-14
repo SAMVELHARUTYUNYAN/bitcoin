@@ -41,19 +41,9 @@
             .pipe($.size({title: path.join(conf.paths.dist, '/'), showFiles: true}));
     }
 
-    // Only applies for fonts from bower dependencies
-    // Custom fonts are handled by the "other" task
-    gulp.task('fonts', function () {
-        return gulp.src($.mainBowerFiles())
-            .pipe($.filter('**/*.{eot,svg,ttf,woff,woff2}'))
-            .pipe($.flatten())
-            .pipe(gulp.dest(path.join(conf.paths.dist, '/fonts/')));
-    });
-
     gulp.task('purifycss', function () {
-        var content = [path.join(conf.paths.dist, '/**/*.{html,js}'), 'bower_components'];
-        var css = [path.join(conf.paths.dist, '/styles/**/*.css'), 'bower_components'];
-
+        var content = [path.join(conf.paths.dist, '/**/*.{html,js}'), 'bower_components/**/*.js'];
+        var css = [path.join(conf.paths.dist, '/styles/**/*.css'), 'bower_components/**/*.css'];
         purifyCss(content, css, {info: true, rejected: true, minify: true}, function (result) {
             console.log(result);
         });
@@ -65,9 +55,9 @@
         });
 
         return gulp.src([
-            path.join(conf.paths.favicons, '/**/*'),
-            path.join(conf.paths.src, '/**/*'),
-            path.join('!' + conf.paths.src, '/**/*.{html,css,js,scss}')
+            path.join(conf.paths.favicons, '/_assets/**/*'),
+            path.join(conf.paths.src, '/_assets/**/*'),
+            path.join('!' + conf.paths.src, '/_assets/**/*.{html,css,js,scss}')
         ])
             .pipe(fileFilter)
             .pipe(gulp.dest(path.join(conf.paths.dist, '/')));
@@ -79,8 +69,6 @@
 
     gulp.task('html', ['inject'], htmlTask);
 
-    gulp.task('build', [ 'clean', 'html', 'other', 'images', 'fonts'], function () {
-        gulp.start('purifycss');
-    });
+    gulp.task('build', ['html', 'other', 'images', 'fonts', 'purifycss']);
 
 })();
